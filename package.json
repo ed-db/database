@@ -1,0 +1,30 @@
+{
+  "name": "ed-search-database",
+  "version": "0.0.1",
+  "description": "Tous les articles indexables au format YAML",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ed-search/database.git"
+  },
+  "author": "Jonathan Bouzekri",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ed-search/database/issues"
+  },
+  "homepage": "https://github.com/ed-search/database#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-flatmap": "^1.0.0",
+    "joi": "^8.4.1",
+    "js-yaml": "^3.6.1",
+    "run-sequence": "^1.2.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp-debug": "^2.1.2"
+  }
+}
