@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var runSequence = require('run-sequence');
+var merge = require('./tools/merge');
 var build = require('./tools/build');
 
 
@@ -16,6 +17,7 @@ gulp.task('validate', function() {
  */
 gulp.task('build', function() {
   return build()
+    .pipe(merge('articles.json'))
     .pipe(gulp.dest('dist'));
 });
 

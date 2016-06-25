@@ -3,6 +3,8 @@
  * Export functions to validate magazine and article objects
  */
 
+"use strict";
+
 var path = require('path');
 var fs = require('fs');
 var Joi = require('joi');
@@ -30,6 +32,7 @@ var schemaMagazine = Joi.object().keys({
  * @type {Joi.Object}
  */
 var schemaArticle = Joi.object().keys({
+    id: Joi.string(),
     title: Joi.string().required(),
     author: Joi.string(),
     page: Joi.number().integer().min(1).required(),

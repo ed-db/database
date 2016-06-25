@@ -3,13 +3,25 @@
  * Aggregate all articles from YAML into a JSON file
  */
 
+"use strict";
+
 var gulp = require('gulp');
 var path = require('path');
 var flatmap = require('gulp-flatmap');
+var data = require('gulp-data');
+var shortid = require('shortid');
 var yaml = require('js-yaml');
 var source = require('vinyl-source-stream');
 var validate = require('./validate');
 
+/**
+ * Right trim carriage returns
+ *
+ * @return string : the right trimed string
+ */
+String.prototype.rtrimCr = function() {
+  return this.replace(/(\r\n|\r|\n|\u0085|\u000C|\u2028|\u2029)$/,"");
+};
 
 /**
  * Parse the content of a file, validate it and returns an array of article object
@@ -35,9 +47,11 @@ function parseFile(file) {
       validate.magazine(magazine, file.path); // Validate first doc describing the magazine
     } else {
       // Enrich article with information from magazine
+      doc.description = doc.description.rtrimCr();
       doc.date = magazine.date;
       doc.number = magazine.number;
       doc.type = magazine.type;
+      doc.id = shortid.generate();
 
       validate.article(doc); // Validate article information
 
@@ -56,16 +70,15 @@ module.exports = function() {
 
   return gulp
     .src('data/**/*.yml')
-    .pipe(flatmap(function(stream, file) {
+    .pipe(data(function(file){
       try {
-        articles = articles.concat(parseFile(file));
+        var articles = parseFile(file);
       }
       catch(e) {
         throw path.join(path.basename(path.dirname(file.path)), path.basename(file.path)) + ': ' + e
       }
 
-      var stream = source('articles.json');
-      stream.end(JSON.stringify(articles));
-      return stream;
+      file.path = file.path.slice(0, -4) + '.json';
+      file.contents = new Buffer(JSON.stringify(articles));
     }));
 };
