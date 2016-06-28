@@ -7,7 +7,6 @@
 
 var gulp = require('gulp');
 var path = require('path');
-var flatmap = require('gulp-flatmap');
 var data = require('gulp-data');
 var shortid = require('shortid');
 var yaml = require('js-yaml');

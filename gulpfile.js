@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var runSequence = require('run-sequence');
-var merge = require('./tools/merge');
+var merge = require('gulp-merge-json');
 var build = require('./tools/build');
 
 
@@ -17,7 +17,7 @@ gulp.task('validate', function() {
  */
 gulp.task('build', function() {
   return build()
-    .pipe(merge('articles.json'))
+    .pipe(merge('articles.json', false, [], false, false, true))  // use feature concat array
     .pipe(gulp.dest('dist'));
 });
 
