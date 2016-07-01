@@ -20,6 +20,7 @@
     "gulp": "^3.9.1",
     "gulp-data": "^1.2.1",
     "gulp-merge-json": "^0.6.0",
+    "image-size": "^0.5.0",
     "joi": "^8.4.1",
     "js-yaml": "^3.6.1",
     "run-sequence": "^1.2.1",

@@ -65,8 +65,6 @@ function parseFile(file) {
 
 
 module.exports = function() {
-  var articles = [];
-
   return gulp
     .src('data/**/*.yml')
     .pipe(data(function(file){
