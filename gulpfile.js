@@ -61,14 +61,5 @@ gulp.task('build', function() {
   );
 });
 
-/**
- * Build and deploy to github page site
- */
-gulp.task('deploy', function() {
-  return runSequence(
-    'build'
-  );
-});
-
 
 gulp.task('default', ['build']);

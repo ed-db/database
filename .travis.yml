@@ -4,11 +4,23 @@ node_js:
   - "5"
   - "4"
   - "node"
+
 install:
   - npm install -g gulp
   - npm install
+
 script:
-  - gulp build
+  - gulp validate
+
 cache:
   directories:
     - node_modules
+
+after_success:
+  - chmod a+x deploy.sh
+  - "bash ./deploy.sh"
+
+env:
+  global:
+  - ENCRYPTION_LABEL: "2a77fe576461"
+  - COMMIT_AUTHOR_EMAIL: "jonathan.bouzekri@gmail.com"
