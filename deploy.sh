@@ -23,11 +23,11 @@ SHA=`git rev-parse --verify HEAD`
 # Create a new empty branch if data doesn't exist yet (should only happen on first deply)
 git clone $REPO dist
 cd dist
-git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
+git checkout $TARGET_BRANCH || (git checkout --orphan $TARGET_BRANCH && git reset --hard)
 cd ..
 
 # Clean out existing contents
-rm -rf dist/**/* || exit 0
+rm -rf dist/* || exit 0
 
 # Run our compile script
 doCompile
