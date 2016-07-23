@@ -16,9 +16,11 @@ cache:
   directories:
     - node_modules
 
-after_success:
-  - chmod a+x deploy.sh
-  - "bash ./deploy.sh"
+deploy:
+  provider: script
+  script: ./deploy.sh
+  on:
+    branch: master
 
 env:
   global:
