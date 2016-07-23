@@ -23,10 +23,17 @@ SHA=`git rev-parse --verify HEAD`
 # Create a new empty branch if data doesn't exist yet (should only happen on first deply)
 git clone $REPO dist
 cd dist
-git checkout $TARGET_BRANCH || (git checkout --orphan $TARGET_BRANCH && git reset --hard)
-cd ..
+if [[ `git branch --list $TARGET_BRANCH` ]]; then
+  git checkout $TARGET_BRANCH
+  echo "Existing $TARGET_BRANCH branch"
+else
+  git checkout --orphan $TARGET_BRANCH
+  git reset --hard
+  echo "New $TARGET_BRANCH branch"
+fi
 
 # Clean out existing contents
+cd ..
 rm -rf dist/* || exit 0
 
 # Run our compile script
@@ -49,6 +56,7 @@ git add -A
 git commit -m "Deploy data: ${SHA}"
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
+cd ..
 ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
 ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
 ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
@@ -59,4 +67,5 @@ eval `ssh-agent -s`
 ssh-add deploy_key
 
 # Now that we're all set up, we can push.
+cd dist
 git push $SSH_REPO $TARGET_BRANCH
