@@ -9,10 +9,11 @@
 		],
 		"description": "Nous poursuivons ici le tour d'horizon du nouveau langage Perl 6 en abordant les structures de contrôles, les fonctions et la construction de nouveaux opérateurs.",
 		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "rJvnPNGq"
+		"id": "HyDc5VMq"
 	},
 	{
 		"title": "Conception 3D d'une clé USB avec FreeCAD",
@@ -23,10 +24,11 @@
 		],
 		"description": "Vous connaissez tous Blender, le logiciel libre de modélisation 3D, mais probablement pas FreeCAD. Ce dernier est un logiciel de conception paramétrique comme les logiciels professionnels tels que SolidWorks ou Catia. FreeCAD permet entre autres la conception et la mise en plan de pièces 3D. Sa modularité lui permet d'étendre ses possibilités au Raytracing, à l'impression 3D en passant par l'assemblage complet de mécanismes et la simulation par calculs.",
 		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "SJlD3v4M5"
+		"id": "S1lDcqEf9"
 	},
 	{
 		"title": "Jouez à l'architecte avec Sweet Home 3D",
@@ -37,10 +39,11 @@
 		],
 		"description": "En février, sortait la version 5.2 de Sweet Home 3D. Voici l'occasion de revenir sur ce logiciel à la fois ludique et utile, dont chacun de nous peut avoir besoin. Sweet Home 3D se présente en effet comme un \"logiciel d'aménagement d'intérieur\", mais en réalité ses possibilités sont si vastes que vous pourriez vous prendre pour un véritable architecte",
 		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "rJ-PnvVzc"
+		"id": "Bk-D554M5"
 	},
 	{
 		"title": "DuckDuckGo, le moteur qui ne vous profile pas",
@@ -52,9 +55,10 @@
 		],
 		"description": "Quand vous utilisez un moteur de recherche tel que GOogle, il vous profile dans le but de personnaliser les résultats et les publicités qui vous sont envoyés. DuckDuckGo, lui, n'enregistre aucune information sur vous",
 		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "HyGDnPVf5"
+		"id": "r1Gw99Nf5"
 	}
 ]
