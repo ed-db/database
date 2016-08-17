@@ -24,7 +24,7 @@ SHA=`git rev-parse --verify HEAD`
 git clone $REPO dist
 cd dist
 if [[ `git branch -a | grep "remotes/origin/$TARGET_BRANCH"` ]]; then
-  git checkout $TARGET_BRANCH
+  git checkout --track $TARGET_BRANCH
   echo "Existing $TARGET_BRANCH branch"
 else
   git checkout --orphan $TARGET_BRANCH
