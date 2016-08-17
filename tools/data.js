@@ -48,6 +48,7 @@ function parseFile(file) {
       // Enrich article with information from magazine
       doc.description = doc.description.rtrimCr();
       doc.date = magazine.date;
+      doc.displayed_date = magazine.displayed_date;
       doc.number = magazine.number;
       doc.url = magazine.shop;
       doc.type = magazine.type;

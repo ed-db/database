@@ -41,6 +41,7 @@ var schemaArticle = Joi.object().keys({
     number: Joi.number().integer().min(1).required(),
     type: Joi.string().required(),
     date: Joi.date().iso().required(),
+    displayed_date: Joi.string().required(),
     url: Joi.string().uri().required()
 });
 
