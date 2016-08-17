@@ -23,7 +23,7 @@ SHA=`git rev-parse --verify HEAD`
 # Create a new empty branch if data doesn't exist yet (should only happen on first deply)
 git clone $REPO dist
 cd dist
-if [[ `git branch --list $TARGET_BRANCH` ]]; then
+if [[ `git branch -a | grep "remotes/origin/$TARGET_BRANCH"` ]]; then
   git checkout $TARGET_BRANCH
   echo "Existing $TARGET_BRANCH branch"
 else
