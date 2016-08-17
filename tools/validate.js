@@ -40,7 +40,8 @@ var schemaArticle = Joi.object().keys({
     description: Joi.string().required(),
     number: Joi.number().integer().min(1).required(),
     type: Joi.string().required(),
-    date: Joi.date().iso().required()
+    date: Joi.date().iso().required(),
+    url: Joi.string().uri().required()
 });
 
 

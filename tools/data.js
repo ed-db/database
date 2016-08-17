@@ -49,6 +49,7 @@ function parseFile(file) {
       doc.description = doc.description.rtrimCr();
       doc.date = magazine.date;
       doc.number = magazine.number;
+      doc.url = magazine.shop;
       doc.type = magazine.type;
       doc.id = shortid.generate();
 
