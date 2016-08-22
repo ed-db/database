@@ -3,6 +3,7 @@ var runSequence = require('run-sequence');
 var merge = require('gulp-merge-json');
 var build = require('./tools/data');
 var cover = require('./tools/cover');
+var serve = require('./tools/serve');
 
 
 /**
@@ -61,5 +62,12 @@ gulp.task('build', function() {
   );
 });
 
+
+/**
+ * Serve database for development purpose
+ */
+gulp.task('serve', ['build'], function() {
+  return serve();
+});
 
 gulp.task('default', ['build']);
