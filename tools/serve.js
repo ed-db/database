@@ -1,23 +1,33 @@
 /**
- * @module tools/build
+ * @module tools
  * Serve database file in a webserver for development purpose
  */
 
 "use strict";
 
-var http = require('http');
+var path = require('path');
+var express = require('express');
+var cors = require('cors');
+var argv = require('yargs')
+    .default('host', 'localhost')
+    .default('port', 8000)
+    .argv
+;
+
+var server = express();
+server.use(cors());
+server.use(express.static(path.resolve(__dirname + '/../dist'), {
+  setHeaders: function(res, path, stat) {
+    if (path.endsWith('.json')) {
+      res.set('Content-Type', 'application/json; charset=utf-8');
+    }
+  }
+}));
 
 module.exports = function() {
-  return http.createServer(function(req,res){
-    // Set CORS headers
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Request-Method', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'OPTIONS, GET');
-    res.setHeader('Access-Control-Allow-Headers', '*');
-    if ( req.method === 'OPTIONS' ) {
-      res.writeHead(200);
-      res.end();
-      return;
-    }
-  }).listen(8000);
-};
+  var port = argv.port;
+  var host = argv.host;
+  return server.listen(port, host, function() {
+    console.log('Server listening on http://' +  host + ':' +  port);
+  });
+}

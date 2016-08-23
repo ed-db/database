@@ -1,5 +1,5 @@
 /**
- * @module tools/build
+ * @module tools
  * Get all cover files
  */
 

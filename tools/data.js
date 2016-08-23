@@ -1,5 +1,5 @@
 /**
- * @module tools/build
+ * @module tools
  * Aggregate all articles from YAML into a JSON file
  */
 

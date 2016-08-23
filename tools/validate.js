@@ -1,5 +1,5 @@
 /**
- * @module tools/validate
+ * @module tools
  * Export functions to validate magazine and article objects
  */
 

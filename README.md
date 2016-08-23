@@ -101,3 +101,18 @@ description: >
 Chaque fichier représente la couverture d'un magazine. Il est nommé XXX.jpg où XXX est le numéro du magazine (*Si le numéro est inférieur à 100, ajouter des 0 à gauche pour qu'il soit sur 3 chiffres*).
 
 Les couvertures doivent être au format **264x352**. En règle générale, utiliser l'image de couverture de la page détail sur la boutique.
+
+## Développement
+
+Un server de développement est disponible pour servir le contenu du dossier dist et être utilisé avec la partie web du projet.
+
+Le lancer avec la commande :
+
+```
+gulp serve --host=localhost --port=8000
+```
+
+Paramètres :
+
+* `host` (default: *localhost*) : l'adresse à laquelle le serveur va écouter
+* `port` (default: *8000*) : le port sur lequel le serveur va écouter

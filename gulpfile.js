@@ -42,6 +42,14 @@ gulp.task('build-data', function() {
 
 
 /**
+ * Serve static files in dist
+ */
+gulp.task('static-serve', function() {
+  return serve();
+});
+
+
+/**
  * Validate the database
  */
 gulp.task('validate', function() {
@@ -66,8 +74,12 @@ gulp.task('build', function() {
 /**
  * Serve database for development purpose
  */
-gulp.task('serve', ['build'], function() {
-  return serve();
+gulp.task('serve', function() {
+  return runSequence(
+    'build-cover',
+    'build-data',
+    'static-serve'
+  );
 });
 
 gulp.task('default', ['build']);
