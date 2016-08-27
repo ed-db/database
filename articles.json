@@ -4,16 +4,220 @@
 		"author": "Laurent Rosenfeld",
 		"page": 6,
 		"keywords": [
-			"perl",
-			"programmation"
+			"conditions",
+			"boucles",
+			"fonctions",
+			"fonctions multiples",
+			"opérateurs",
+			"programmation fonctionnelle"
 		],
 		"description": "Nous poursuivons ici le tour d'horizon du nouveau langage Perl 6 en abordant les structures de contrôles, les fonctions et la construction de nouveaux opérateurs.",
+		"summary": "Dans le premier volet de ce tour d'horizon du nouveau langage de programmation Perl 6, nous avons notamment présenté les différents types de variables et les principaux opératuers du langage. Le présent article décrit notamment les principales structures de contrôle : les conditions (if, unless, given ... when) et les boucles (for, while, until, loop). Il montre ensuite comment créer des fonctions dotées de signatures fortement ou faiblement typées, au choix de l'utilisateur ; on verra notamment comment des signatures différentes permettent d'écrire des fonctions (fonctions dites multiples) ayant le même nom, mais faisant des choses différentes selon le nombre et le type de leurs arguments. Nous verrons enfin combien il est facile de créer dynamiquement de nouveaux opérateurs permettant d'étendre le langage.\n",
 		"date": "2016-06-01T00:00:00.000Z",
 		"displayed_date": "Juin 2016",
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "BJJAa-Jj"
+		"id": "r115n7ks"
+	},
+	{
+		"title": "PostgreSQL 9.5 : Les nouvelles fonctionnalités SQL",
+		"author": "Guillaume Lelarge",
+		"page": 14,
+		"keywords": [
+			"PostgreSQL",
+			"Nouveautés",
+			"Standard SQL",
+			"Fonctions OLAP",
+			"Sharding"
+		],
+		"description": "La version 9.5 de PostgreSQL apporte de nombreuses nouveautés. COmme il serait difficile de tout énumérer en un seul article, nous allons aborder ici certaines fonctionnalités relatives au SQL et aux utilisateurs finaux de PostgreSQL. Un gros travail a été effectué par les développeurs pour permettre de gérer de plus gros vbolumes de données, et cela se voit dans les fonctionnalités que nous allons décrire maintenant.",
+		"summary": "PostgreSQL est un moteur de bases de données évoluant constamment. Avec une nouvelle version majeure chaque année, il est souvent difficile de suivre les améliorations apportées. Cet article a pour but de détailler quelques fonctionnalités importantes au niveau SQL proposées par la version 9.5. Il cible principalement les développeurs qui travaillent avec PostgreSQL, mais aussi les utilisateurs et les administrateurs.\n",
+		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
+		"number": 194,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "glmf",
+		"id": "SkxJcn7Js"
+	},
+	{
+		"title": "Je suis pas analyste !",
+		"author": "Jean-Pierre Troll",
+		"page": 18,
+		"keywords": [
+			"Humeur",
+			"Jean-Pierre Troll",
+			"Coup de gueule",
+			"Analyste"
+		],
+		"description": "J'ai plus d'abonnements au Gartner, Forrester et autres cabinets d'analystes. Enfin, ma boîte me donne plus les accès à cette si substantifique moelle de réflexion, d'analyse, de synthèse, de futurologie ! Ça tombe bien, car ça commençait à fortement me soûler toute cette logorrhée marketing reprise la bouche en coeur par mes collègues, mes managers, mes clients, ma copine, mon chat... (je n'ose ni n'arrive à mettre d'ordre dans cette liste !)",
+		"summary": "Le retour de la revanche de Jean-Pierre Troll. Après une mise au vert, la démangeaison du coup de gueule me reprend. Un peu comme un éternuement que j'essayais de contenir... Pour ce retour, je propose une analyse alternative de la transformation digitale. Plutôt que les technologies, je propose de se concentrer sur les usages. Et la convergence et l'interrelation de quatre changements de paradigmes majeurs dans les usages donnent ce que je baptse le \"Plexus\" : hyperconnexion, consumérisation, commoditisation et intermédiation. Ok, \"Beam me Mr Spock !\".\n",
+		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
+		"number": 194,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "glmf",
+		"id": "By-1q2Xyj"
+	},
+	{
+		"title": "Peut-on vraiment calculer avec un ordinateur : les opérations",
+		"author": "Florent Langrognet",
+		"page": 22,
+		"keywords": [
+			"Calcul",
+			"Réels",
+			"Flottants",
+			"Précision",
+			"Arithmétique",
+			"Norme"
+		],
+		"description": "Nous avons vu le mois dernier comment étaient représentés les réelsz sur ordinateur. Il est temps maintenant d'utiliser ces réels (les flottants) pour calculer. Quels sont les mécanismes mis en oeuvre lors de chaque opération ? A quelle(s) étape(s) des erreurs de précision peuvent-elles apparaître ? L'ordre des calculs a-t-il une importance sur la qualité des résultats ? Vous trouverez les réponses à toutes ces questions (et bien d'autres) dans les pages de cet article.",
+		"summary": "Après avoir expliqué comment les réels étaient représentés sur ordinateur, nous allons montrer dans les détails comment se déroulent deux opérations (l'addition et la soustraction). Ainsi, nous verrons les causes des erreurs de précision et quelles sont les pistes pour les contenir. Nous regarderons ensuite ce qui se passe avec les autres opérations et conlurons.\n",
+		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
+		"number": 194,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "glmf",
+		"id": "BJGJc3QJi"
+	},
+	{
+		"title": "Décoder un code QR",
+		"author": "Nicolas Patrois",
+		"page": 32,
+		"keywords": [
+			"Python",
+			"Code QR",
+			"Programmation orientée objet",
+			"Algorithme"
+		],
+		"description": "Une fois que l'on sait déchiffrer un code QR, il faut le décoder... et il y a encore du travail avant de pouvoir lire son contenu.",
+		"summary": "Nous allons décortiquer le code QR petit à petit pour en extraire les informations utiles à la lecture de son contenu. Le code et les fichiers utiles sont sur Github.\n",
+		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
+		"number": 194,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "glmf",
+		"id": "HyQJqhQJo"
+	},
+	{
+		"title": "Chiffrer une partition avec LVM et LUKS",
+		"author": "Tristant Colombo",
+		"page": 42,
+		"keywords": [
+			"Chiffrement",
+			"LVM",
+			"Debian",
+			"Partition",
+			"LUKS"
+		],
+		"description": "Un nouvel ordinateur portable ? Il est essentiel de chiffrer votre disque ! Pour cela, nous allons utiliser un conteneur LVM (Logiciel Volume Manager) pour les données et les chiffrer avec un conteneur LUKS (Linux Unified Key Setup)",
+		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
+		"number": 194,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "glmf",
+		"id": "S1Nk9hmkj"
+	},
+	{
+		"title": "Gestion de paquets sûre et flexible avec GNU Guix",
+		"author": "Ludovic Courtès",
+		"page": 46,
+		"keywords": [
+			"Gestion de paquets",
+			"Distribution",
+			"Programmation fonctionnelle",
+			"GNU"
+		],
+		"description": "Les distributions GNU/Linux classiques sont mal aimées. Cet article revient sur leurs limites et donne un aperçu de la solution que propose le projet GNU avec Guix, un gestionnaire de paquets transactionnel, flexible et personnalisable.",
+		"summary": "Linux Weekly News dénombre plus de 500 distributions GNU/Linux et y voit une \"célébration de la diversité\". Avec ça, le problème de la distribution de logiciels a été largement exploré, et probablement largement résolu, se dit-on. Et pourtant ! Cet article traite d'un nouveau gestionnaire de paquets, GNU Guix, qui fournit mises à jour transactionnelles, retours en arrière, et ext extensible et personnalisable à souhait.\n",
+		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
+		"number": 194,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "glmf",
+		"id": "HJSyq3mJs"
+	},
+	{
+		"title": "Déconnexion PDO : du comptage de références en PHP",
+		"author": "Gabriel Zerbib",
+		"page": 52,
+		"keywords": [
+			"PHP",
+			"Référence counting",
+			"PDO",
+			"Closures"
+		],
+		"description": "Vous utilisez pour votre projet les composants populaires et éprouvés de l'écosystème PHP et mettez en oeuvre les pratiques recommandées dans les manuels. Pourtant votre application se heurte à des problèmes de conception : une piste se cache peut-être ici.",
+		"summary": "PHP, comme la plupart des langages dynamiques, offre un mécanisme de collecte de résidus qui affranchit le développeur de se préoccuper de la gestion de la mémoire. Il est notre ami, mais il est préférable de savoir travailler avec lui pour éviter certains désagréments liés à la structure du langage.\n",
+		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
+		"number": 194,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "glmf",
+		"id": "S1L1q37Js"
+	},
+	{
+		"title": "Programmer avec GTK+",
+		"author": "Christophe Borelly",
+		"page": 58,
+		"keywords": [
+			"GTK+",
+			"Langage C",
+			"applications graphiques",
+			"Evénements",
+			"Styles",
+			"Internationalisation"
+		],
+		"description": "Cet article va vous présenter les rudiments de la programmation d'applications graphiques en C à l'aide de la boîte à outils GTK+ (GIMP Toolkit).",
+		"summary": "Dans cet article, vous apprendrez à développer une petite application en C permettant de simuler un système d'authentification utilisateur. Vous découvrirez comment organisez les éléments graphiques dans la fenêtre, comment gérer les événements utilisateur (comme le clic sur un bouton), comment paramétrer le style des éléments avec du CSS (Cascading Style Sheet) comme en HTML, et enfin comment internationaliser l'application (c'est à dire afficher les textes en fonction de la langue utilisée).\n",
+		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
+		"number": 194,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "glmf",
+		"id": "B1D1c2Xyo"
+	},
+	{
+		"title": "Un vrai language",
+		"author": "Guillaume Saupin",
+		"page": 66,
+		"keywords": [
+			"C++",
+			"Lisp",
+			"LLVM",
+			"Compilation",
+			"Parseur",
+			"Langage"
+		],
+		"description": "Les deux précédents articles de cette série nous ont permis de mettre au point les fonctionnalités de base de notre langage de programmation. Nous sommes maintenant outillés pour pouvoir parser et évaluer des expressions d'un langage de type Lisp. De plus, nous disposons d'un mécanisme de plugins permettant d'étendre facilement notre langage. Nous allons maintenant passer aux choses sérieuses et permettre à notre langage de s'étendre en déclarant des fonctions et surtout en supportant les macros.",
+		"summary": "Dans ce troisième article, nous allons étendre très largement les possibilités de notre langage, en ajoutant non seulement les fonctions, mais aussi les macros. Pour cela, nous commencerons par ajouter quelques structures pour le contrôle de flux, comme l'indispensable if. Nous détaillerons ensuite la forme spéciale let, qui permet d'ajouter des variables. Il apparaîtra ensuite que l'ajout de fonctions est finalement proche de cette forme. Enfin, nous irons au delà de ce que sont capables de faire la plupart des langages en dotant notre langage de macros.\n",
+		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
+		"number": 194,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "glmf",
+		"id": "BJ_yq3mJs"
+	},
+	{
+		"title": "(Re)découvrons jQuery",
+		"author": "Laurent Navarro",
+		"page": 74,
+		"keywords": [
+			"jQUery",
+			"HTML",
+			"CSS",
+			"Javascript",
+			"Web",
+			"Programmation"
+		],
+		"description": "jQuery est une bibliothèque connue de tous ceux qui développent sur le Web, parfois juste de nom, parfois juste parce qu'ils ont copié/collé quelques lignes magiques, je vous invite aujourd'hui à l'étudier d'un peu plus près.",
+		"summary": "L'objectif de cet article est de reprendre les bases de jQuery afin de formaliser un peu son utilisation et d'essayer d'aller un peu plus loin que les utilisations ultra-basiques.\n",
+		"date": "2016-06-01T00:00:00.000Z",
+		"displayed_date": "Juin 2016",
+		"number": 194,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "glmf",
+		"id": "HyFychmki"
 	},
 	{
 		"title": "PostgreSQL 9.5 : Encore des nouveautés",
@@ -33,7 +237,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "ByeJATZyj"
+		"id": "Skqy5hmki"
 	},
 	{
 		"title": "Les réseaux Asociaux",
@@ -52,7 +256,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "HJW10pZ1o"
+		"id": "B1o19nmks"
 	},
 	{
 		"title": "Expliquer un corps fini",
@@ -71,7 +275,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "SJfyCTbJj"
+		"id": "HynJ53Qks"
 	},
 	{
 		"title": "Bienvenue dans le monde des descripteurs de fichiers",
@@ -91,7 +295,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "HJ71RaZko"
+		"id": "rk61q3Xyj"
 	},
 	{
 		"title": "Configurer à chaud votre serveur OpenLDAP",
@@ -110,7 +314,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "BJNJ06Z1j"
+		"id": "Sy0k9h7Js"
 	},
 	{
 		"title": "Démystification de l'attaque par buffer overflow",
@@ -134,7 +338,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "HJB1R6WJs"
+		"id": "Sy1ly9nQki"
 	},
 	{
 		"title": "Filtrez vos courriels avec python",
@@ -153,7 +357,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "BkIyATZyo"
+		"id": "ryeeJ5h7ks"
 	},
 	{
 		"title": "Apprenez à tenir vos promesses avec javascript",
@@ -174,7 +378,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "B1DkC6bJo"
+		"id": "H1-gkqnX1o"
 	},
 	{
 		"title": "Déstructurez vos documents: conversion latex vers libreoffice",
@@ -195,7 +399,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "HkO10a-1i"
+		"id": "B1flJqhQJj"
 	},
 	{
 		"title": "Python : un environnement vraiment isolé avec GNU Guix",
@@ -215,7 +419,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "ByFy0aWkj"
+		"id": "HymgJq3Qyi"
 	},
 	{
 		"title": "Réalisation d'un automatisme d'objets connectés sans cloud ni smartphone",
@@ -237,7 +441,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "Bkq1RT-1j"
+		"id": "rkNlk9h7Ji"
 	},
 	{
 		"title": "Vision assistée par ordinateur via OpenCV",
@@ -257,14 +461,16 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "Bkj10abyi"
+		"id": "r1BekqnQJs"
 	},
 	{
 		"title": "Conception 3D d'une clé USB avec FreeCAD",
 		"author": "Laurent Delmas",
 		"page": 8,
 		"keywords": [
-			"software"
+			"blender",
+			"FreeCAD",
+			"3D"
 		],
 		"description": "Vous connaissez tous Blender, le logiciel libre de modélisation 3D, mais probablement pas FreeCAD. Ce dernier est un logiciel de conception paramétrique comme les logiciels professionnels tels que SolidWorks ou Catia. FreeCAD permet entre autres la conception et la mise en plan de pièces 3D. Sa modularité lui permet d'étendre ses possibilités au Raytracing, à l'impression 3D en passant par l'assemblage complet de mécanismes et la simulation par calculs.",
 		"date": "2016-03-01T00:00:00.000Z",
@@ -272,37 +478,441 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "By2y0pWJo"
+		"id": "SJUeJ9hmJj"
+	},
+	{
+		"title": "Monter son serveur de mails : Partie 1",
+		"author": "Cédric Pellerin",
+		"page": 16,
+		"keywords": [
+			"postfix",
+			"smtp"
+		],
+		"description": "Comment monter à la main un serveur mail complet dans le but de comprendre ce que l'on fait et de maîtriser son installation de A à Z ?",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "BkDly9h7Jj"
+	},
+	{
+		"title": "Les paradis numériques existent-ils ?",
+		"author": "Tric Acatrinei",
+		"page": 26,
+		"description": "Depuis la promulgation de la loi HADOPI 2, puis de la LOPPSI et d'autres textes comme la loi sur le renseignement, la question de savoir où est-ce que les internautes peuvent encore préserver un minimum d'intimité numérique surgit et avec elle, celle des paradis numériques.",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "HJdl1qhQ1i"
+	},
+	{
+		"title": "Let's Encrypt : le chiffrement gratuit, ouvert et automatisé sur internet",
+		"author": "Christophe Brocas",
+		"page": 30,
+		"description": "Dans le numéro 91 de Linux Pratique, nous avons décrit comment mettre en oeuvre de manière sécurisée l'accès via TLS à votre site web. Mais la relative complexité de la procédure ou le coût d'achat des certificats numériques pouvait compliquer cette mise en oeuvre. Une initiative a été lancée par Mozilla, l'EFF et d'autres partenaires pour s'attaquer à ces difficultés : Let's Encrypt.",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "S1Flkc27ys"
+	},
+	{
+		"title": "Ne vous faitesz plus pister sur le web avec Privoxy !",
+		"author": "Stéphane Mourey",
+		"page": 38,
+		"description": "Surfez sur le Web est une expérience où il est difficile de garder le contrôle : de multiples techniques sont mises en oeuvre pour vous traquer. Le moindre mal, car le plus visible, est de vous \"offrir\" des publicités ciblées et envahissantes qui vous suivent d'un site à l'autre. Avec Privoxy, offrez vous un peu plus d'intimité et de confort.",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "HJqeJ927ks"
+	},
+	{
+		"title": "Apprendre à manipuler le PDF en 10 cas pratiques",
+		"author": "Hervé Massicot",
+		"page": 52,
+		"description": "Le format PDF est un format de fichier aujourd'hui largement répandu, car son gros avantage est de conserver la mise en forme du document (police, images, etc.) ceci peu importe la machine (PC, smartphone, liseuse...) ou le système d'exploitation. Mais ce gros avantage peut devenir contraignant. En effet, nous ne disposons pas tous de la suite logicielle Adobe permettant facilement de manipuler nos fichiers PDF. Avez vous déjà pesté face à votre écran, car il fallait modifier le fichier d'origine et régénérer un fichier PDF ? Il existe de nombreuses solutions à nos soucis du quotidien. Nous allons dresser dans ce dossier une liste des problématiques fréquentes et donner le moyen d'y remédier.",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "HJigkq371o"
+	},
+	{
+		"title": "Nettoyage des vieux noyaux GNU/Linux obsolètes",
+		"author": "Thierry Gayet",
+		"page": 58,
+		"description": "Il arrive parfois que notre distribution favorite possède une collection de vieux noyaux GNU/Linux dus aux différentes mises à jour successives. Pour ce faire, je propose d'étudier une solution permettant de purifier un peu tout cela et par la même occasion de libérer de la place.",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "BJ3ek5h7ki"
+	},
+	{
+		"title": "Gérez votre site Wordpress où que vous soyez",
+		"page": 64,
+		"description": "Bonne nouvelle pour les utilisateurs du célèbre CMS, Wordpress met à disposition de ces derniers une application Android et iOS leur permettant de gérer leur site directement depuis leur mobile. Même si celà ne vaut évidemment pas le confort du travail d'un PC, l'application en question en fera un excellent outil d'appoint pour intervenir sur son site où que l'on se trouve. On s'intéressera évidemment ici à l'application développée pour la plateforme Android.",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "r1axk9hmys"
+	},
+	{
+		"title": "Piwigo : votre galerie photo personnelle en ligne",
+		"author": "Yann Morère",
+		"page": 68,
+		"description": "Vous prenez constamment des photos avec votre smartphone. Si vous souhaitez les partager et les organiser en ligne, elles peuvent ensuite automatiquement téléversées dans l'application Photos sur les serveurs de Google via votre compte \"Android\". Vous donnez ainsi accès à vos informations personnelles à une grande multinationale. Pourquoi ne pas reprendre le contrôle de vos données et gérer vous-même vos photos en ligne à l'aide de Piwigo ?",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "SJCgyq3mks"
+	},
+	{
+		"title": "Dopez vos CSS avec SASS",
+		"author": "Stéphane Mourey",
+		"page": 74,
+		"description": "Les CSS constituent un outil remarquable qui permettent de gérer facilement le style de toutes les pages d'un site en seulement quelques fichiers. Ils permettent une factorisation en permettant de combiner à l'infini des règles de style pouvant s'appliquer à de multiples éléments. A l'infini ? Oui, et on en arrive bientôt à des dizaines de fichiers de milliers de lignes... D'où la naissance des langages de génération de CSS qui permettent de leur donner une couche d'abstraction supplémentaire et de mettre à jour bien plus facilement le style d'un site.",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "Sy1WJ93QJo"
+	},
+	{
+		"title": "Un CRM, mais en fait, à quoi ça sert ?",
+		"author": "Jean-Micherl Armand",
+		"page": 80,
+		"description": "Certains d'entre vous ont peut-être décidé de tenter la grande aventure de la création d'entreprise ou du freelance. Vous êtes peut-être déjà en plein dedans ou c'est un projet que vous espérez pouvoir bientôt réaliser. Dans tous les cas, pour espérer pouvoir faire vivre votre activité, vous allez devoir trouver des clients. Le CRM est l'outil qui peut vous aider à organiser et à optimiser cela. Nous allons voir dans cet article ce qui se cache vraiment derrière cet acronyme.",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "BJg-JqhQ1j"
+	},
+	{
+		"title": "Communiquz librement avec Mattermost",
+		"author": "Benoît Benedetti",
+		"page": 84,
+		"description": "Mattermost est un outil de communication collaborative, clone libre de Slack. Slack, cet outil sorti il y a moins d'un an, qui a très vite été adopté, car il facilite la communication d'entreprise, dont la start-up qui est estimée désormais à plus d'un milliard de dollars. Mattermost réunit donc le meilleur des deux mondes : les fonctionnalités de slack, et un code source libre et auto-hébergeable, pour rester maître de vos données et communications.",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "S1ZZ1c37ki"
+	},
+	{
+		"title": "Tout ce qu'il faut savoir sur le protocole LDAP Partie II : La pratique",
+		"author": "Mejri Issam",
+		"page": 90,
+		"description": "Si vous êtes en train de lire cet article, c'est que vous avez de la chance ! Pourquoi ? Car vous allez découvrir le serveur LDAP de référence OpenLDAP et également tout ce qui est nécessaire pour une prise en main rapide et efficace, notamment dans un environnement de production. Vous aurez l'occasion de parcourir OpenLDAP depuis son installation, jusqu'à la configuration poussée de ce dernier et par conséquent une maîtrise parfaite de son implémentation en tant que service fondamental dans une infrastructure réseau de moyenne ou grande taille.",
+		"date": "2016-03-01T00:00:00.000Z",
+		"displayed_date": "Mars/Avril 2016",
+		"number": 94,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
+		"type": "lp",
+		"id": "H1Mb1q2mJo"
 	},
 	{
 		"title": "Jouez à l'architecte avec Sweet Home 3D",
 		"author": "Stéphane Mourey",
 		"page": 8,
-		"keywords": [
-			"software"
-		],
 		"description": "En février, sortait la version 5.2 de Sweet Home 3D. Voici l'occasion de revenir sur ce logiciel à la fois ludique et utile, dont chacun de nous peut avoir besoin. Sweet Home 3D se présente en effet comme un \"logiciel d'aménagement d'intérieur\", mais en réalité ses possibilités sont si vastes que vous pourriez vous prendre pour un véritable architecte",
 		"date": "2016-05-01T00:00:00.000Z",
 		"displayed_date": "Mai/Juin 2016",
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "Syak06-ks"
+		"id": "SJXZy9nQks"
+	},
+	{
+		"title": "Montez son serveur de mails : Partie 2",
+		"author": "Cédric Pellerin",
+		"page": 19,
+		"description": "Dans le précédent numéro, nous avons vu comment monter un serveur Postfix et le paramétrer. Dans cette seconde partie, nous allons voir comment ajouter des fonctionnalités à notre serveur en ce qui concerne l'anti-spams et la réception des e-mails.",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
+		"number": 95,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
+		"type": "lp",
+		"id": "ry4bJqnXkj"
+	},
+	{
+		"title": "La meilleure distribution universelle n'existe pas",
+		"author": "Stéphane Blondon",
+		"page": 28,
+		"description": "Pourquoi est-il impossible d'avoir une réponse définitive à la question récurrent de la meilleure distribution Linux ? Si la question suscite de vifs débats, c'est plus souvent dû à une relation passionnelle à l'une d'entre elles qu'à un raisonnement rationnel...",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
+		"number": 95,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
+		"type": "lp",
+		"id": "SyS-y5nQkj"
 	},
 	{
 		"title": "DuckDuckGo, le moteur qui ne vous profile pas",
 		"author": "Vincent Magnin",
 		"page": 32,
-		"keywords": [
-			"service",
-			"search"
-		],
 		"description": "Quand vous utilisez un moteur de recherche tel que GOogle, il vous profile dans le but de personnaliser les résultats et les publicités qui vous sont envoyés. DuckDuckGo, lui, n'enregistre aucune information sur vous",
 		"date": "2016-05-01T00:00:00.000Z",
 		"displayed_date": "Mai/Juin 2016",
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "rk0kC6bJj"
+		"id": "rkL-yc2QJo"
+	},
+	{
+		"title": "Mise en place d'une solution de rediffusion de la TNT à la maison",
+		"author": "Arnaud Février",
+		"page": 38,
+		"description": "Le 5 avril la TNT est passée à la HD. Cet événement et la multiplication des écrans dans nos chaumières permettent d'imaginer de nouveaux usages. Celui que nous allons envisager dans cet article consiste à mettre en place une station de rediffusion domestique. AInsi depuis n'importe quel écran de la maison, il sera possible de capter n'importe quelle chaîne de télévision.",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
+		"number": 95,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
+		"type": "lp",
+		"id": "B1vb15nQki"
+	},
+	{
+		"title": "Encodez vos vidéos en H.265/HEVC",
+		"author": "Hervé Massicot",
+		"page": 46,
+		"description": "Avec chaque nouvelle année, son lot de résolutions, et une de mes résolutions 2016 est de convertir mes vidéos personnelles qui s'accumulent sur mon disque et prennent de plus en plus de place. Je me suis donc mis en tête d'écrire un script de conversion adapté à la tâche. L'outil qui me semblait le plus adapté est notre bon vieux ffmpeg (16 ans déjà!) capable depuis quelques années d'encoder nos vidéos au format \"actuel\" H.264, largment supporté par de nombreux appareils. Mais j'ai voulu m'intéresser à une autre norme plus récente : HEVC, qui se veut être le prochain standard et promet des performances sur la compression tout en améliorant la qualité d'image.",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
+		"number": 95,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
+		"type": "lp",
+		"id": "SJdby5nQ1o"
+	},
+	{
+		"title": "Utilisez des claviers alternatifs plus judicieux sous Android",
+		"author": "Arnaud Février",
+		"page": 52,
+		"description": "Même sur les systèmes conviviaux les plus réussis, il faut parfois utiliser le langage articulé et entrer des vrais mots avec de vraies lettres. Android propose quelques claviers utilisables, mais il en existe bien d'autres plus pratiques.",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
+		"number": 95,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
+		"type": "lp",
+		"id": "SyKZyq2Xyj"
+	},
+	{
+		"title": "Comprenez vos visiteurs avec Piwik",
+		"author": "Hervé Massicot",
+		"page": 56,
+		"description": "Si je vous dis \"web analytics\", il est fort à parier que vous me parliez de Google Analytics, un des ténors du secteur. Facile à mettre en oeuvre, séduisant par sa palette d'outils et de services intégrés, il n'en reste pas moins un outil de la galaxie Google. Et en général, se pose la question des données collecées. Piwik fait partie de ces solutions qui proposent une alternative crédible à Google Analytics. En effet, outre le fait d'être open source, il permet d'héberger soi-même les données générées par l'analyse du trafic de son site web. Il n'a rien à envier à Google Analytics en termes de fonctionnalités et c'est même l'outil de mesure d'audience recommandé par la CNIL pour respecter les lois sur la protection des données.",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
+		"number": 95,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
+		"type": "lp",
+		"id": "HJ5Zy92Xyi"
+	},
+	{
+		"title": "LESS: Optimisez votre travail sur les CSS",
+		"author": "Stéphane Mourey",
+		"page": 64,
+		"description": "Less est un générateur de CSS. Ecrit en Javascript, il peut même être perçu comme une façon d'étendre les CSS pour leur offrir de nouvelles possibilités au sein du navigateur. Conçu comme un véritable langage, sa syntaxe permet un développement plus rapide, une implémentation plus cohérente et une maintenance facilitée des styles de votre site.",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
+		"number": 95,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
+		"type": "lp",
+		"id": "Ski-J53Xyi"
+	},
+	{
+		"title": "Qu'est-ce que l'open data : introduction & mise en pratique",
+		"author": "Tris Acatrinei",
+		"page": 78,
+		"description": "L'open data permet à tout un chacun de faire des choses assez fascinantes, qui peuvent même s'avérer dérangeantes pour certains acteurs. Quels sont les contours de l'open data ? Qu'avons nous le droit de faire avec les données mises à disposition ? Quelles sont les interactions de l'open data avec la vie privée et la propriété intellectuelle classique ?",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
+		"number": 95,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
+		"type": "lp",
+		"id": "SkhZ19hX1o"
+	},
+	{
+		"title": "MicroAlg, un langage pour grands débutants",
+		"author": "Christophe Gragnic",
+		"page": 84,
+		"description": "Rares sont les langages de programmation qui ont été conçus dans un but pédagogique : Logo, Pascal et quelques autres... MicroAlg s'appuie sur cet héritage et propose un langage avec des mots-clés en français, utilisable avec un éditeur en local ou dans le navigateur, avec du code textuel ou des blocs à déplacer.",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
+		"number": 95,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
+		"type": "lp",
+		"id": "B1aZ192Qyi"
+	},
+	{
+		"title": "La sauvegarde dee vos équipements réseau avec RANCID",
+		"author": "Benoît Benedetti",
+		"page": 94,
+		"description": "Bien que vos équipements réseaux n'hébergent pas de données, vos switches et pare-feu nécessient que vous ayez une stratégie de sauvegarde afin de pouvoir les reconfigurer rapidement. Alors, à moins que vous ayez déjà adopté une solution de gestion de configuration automatisée et centralisée de ces équipements, je vous propose de découvrir RANCID pour effecter leur sauvegarde.",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai/Juin 2016",
+		"number": 95,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
+		"type": "lp",
+		"id": "rkAWkc3Xks"
+	},
+	{
+		"title": "Réaliser son dossier de permis de construire avec Blender et LibreCAD",
+		"author": "Laurent Delmas",
+		"page": 8,
+		"description": "Blender est bien connu pour son utilisation dans le monde multimédia avec les films d'animation Elephants Dream, Big Buck Bunny et SIntel, ainsi que dans de grands métrages hollywoodiens. Quand à LibreCAD, c'est une alternative au logiciel AutoCAD utilisé en architecture et en mécanique. Nous allons réaliser la conception 3D d'un bâtiment architectural avec Blender et utiliser LibreCA pour la mise en page des plans nécessaires à la constitution d'un dossier de permis de construire.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "SkyzJ53mkj"
+	},
+	{
+		"title": "Enrichier sa diffusion de contenus multimédias avec OBS",
+		"author": "Lucile Lapierre & Nicolas Greneche",
+		"page": 18,
+		"description": "Le terme \"visioconférence\" implique une multitude de projections en terme d'infrastructure de diffusion. Cela va d'une simple conversation vidéo point à point type Skype à une réunion impliquant des gens éloignés géographiquement et de multiples supports (diaporama, fichiers multimédias, etc.) avec du matériel dédié. Cet article introduit Open Broadcaster Software (OBS), un logiciel libre proposant de gérer et enrichier vos diffusions vidéos.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "SJeG1q2mkj"
+	},
+	{
+		"title": "Etalonner son écran avec des outils libres",
+		"author": "Benoît Benedetti",
+		"page": 24,
+		"description": "Que vous soyez photographe, vidéaste ou graphiste, professionnel ou amateur, l'étalonnage (ou son anglicisme calibration) de votre écran est essentiel si vous voulez restituer le plus difèlement possible vos photos, vidéos et autres réalisations graphiques.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "HyZzy92mys"
+	},
+	{
+		"title": "Protégez votre vue et votre sommeil avec Redshift",
+		"author": "Vincent Magnin",
+		"page": 32,
+		"description": "Rester tard le soir devant son écran n'est pas recommandé pour votre sommeil. Et la lumière bleue de vos écrans suscite actuellement des interrogations. Avec Redshift, vous pouvez atténuer les effets négatifs du travail sur écran.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "SkzMJ5n71j"
+	},
+	{
+		"title": "Protégez vos données : utilisez des supports chiffrés",
+		"author": "Arnaud Février",
+		"page": 36,
+		"description": "Les installations classiques des systèmes d'exploitation utilisent un disque dur non chiffré. Le système d'exploitation peut protéger les données des utilisateurs lorsqu'il est en fonctionnement, mais un indélicat peut, s'il a un accès physique à la machine, arrêter celle-ci, extraire le disque dur, et lire les données. Pour se protéger contre ces pratiques, la solution consiste à chiffrer le disque dur.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "r1QG19nQJi"
+	},
+	{
+		"title": "YunoHost, l'auto-hébergemenbt à portée de main",
+		"author": "Annaïg Denis",
+		"page": 44,
+		"description": "Comment faire pour héberger chez soi les différents services et applications que l'on utilise afin de préserver sa vie privée ? Une des solutions se trouve dans la distribution YunoHost qui permet d'installer un serveur de courriels et un serveur XMPP ainsi que de nombreuses applications. Ce tutoriel présente ainsi l'installation et a configuration de YunoHost avec comme base une brique internet, un nano-ordinateur faisant office de serveur. Nous avons choisi d'y installer OwnCloud pour ses services d'agenda, de carnet d'adresses et de synchronisation de fichiers, ainsi que le webmail Roundcube et le client XMPP Jappix. Les applications de la brique internet permettent en outre de simplement pouvoir configurer une connexion sécurisée VPN sur tous les appareils du domicile en intégrant un point d'accès Wifi.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "S1Nfy9h7Jj"
+	},
+	{
+		"title": "Test de la tablette Aquaris M10 Ubuntu Edition",
+		"author": "Benoît Benedetti",
+		"page": 56,
+		"description": "Alors que Firefox OS vient tout juste d'être abandonné, Canonical continue d'essayer de proposer une alternative à Android et iOS. Nous allons dans cet article voir les dernières nouveautés de son système mobile Ubuntu Touch, qui se veut convergent, en testant la première tablette supportant officiellement ce système, l'Aquaris M10 Ubuntu Edition.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "BJBzyqn7yo"
+	},
+	{
+		"title": "HashOver : autorisez les commentaires sur vos sites statiques",
+		"author": "Stéphane Mourey",
+		"page": 62,
+		"description": "Les sites et même les blogs statiques on le vent en poupe, notamment grâce à Jekyll, non sans raison : efficacité, performance, séurité, ils constituent une solution idéale lorsque l'on n'a pas besoin d'un Wordpress ou d'un autre CMS. Une seule chose leur fait défaut : les commentaires des visiteurs. Pour remédier à cela, découvrons aujourd'hui HashOver !",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "rJUMJ93Qkj"
+	},
+	{
+		"title": "Friendica : un réseau pour les gouverner tous ?",
+		"author": "Stéphane Mourey",
+		"page": 67,
+		"description": "Je vous vois froncer les sourciels. A quoi bon un autre réseau social ? N'en n'avons nous pas déjà assez ? Y compris des réseaux libres ? Certes, mais Friendica est différent, notamment grâce à sa capacité à communiquer avec les autres services.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "r1PGJchQkj"
+	},
+	{
+		"title": "Manipuler des données avec Drupal",
+		"author": "Tris Acatrinei",
+		"page": 77,
+		"description": "Avec l'essor de l'open data et la mise à disposition par des entités publiques ou privées d'un grand nombre de données, les initiatives permettant leurs croisements se développent. Mais encore faut-il pouvoir les intégrer dans un outil. Le présent article va vous expliquer comment le faire avec l'un des CMS/framework les plus robustes du marché : Drupal.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "r1Ofk5hQJi"
+	},
+	{
+		"title": "Surveillez automatiquement le programme de la TNT avec Python",
+		"author": "Vincent Magnin",
+		"page": 84,
+		"description": "La concision et la puissance de Python vont nous permettre d'écrire rapidement un petit script pour surveiller automatiquement le programme des nombreuses chaînes de la TNT.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "BktMJ9nmko"
+	},
+	{
+		"title": "gérez vos projets agiles avec Taïga",
+		"author": "Sébastien Chazallet",
+		"page": 92,
+		"description": "Taiga est une plateforme de gestion de projets agiles dont l'utilisation est à la fois simple et agréable. Gratuite et libre, puissante, mais très accessible et vraiment efficace, elle est l'outil idéal, que vous soyez indépendant ou une équipe de développeurs utilisant la méthode SCRUM.",
+		"date": "2016-07-01T00:00:00.000Z",
+		"displayed_date": "Juillet/Août 2016",
+		"number": 96,
+		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
+		"type": "lp",
+		"id": "ry9f1qnQ1o"
 	}
 ]
