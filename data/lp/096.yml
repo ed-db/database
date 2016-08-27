@@ -1,0 +1,132 @@
+---
+date: 2016-07-01
+displayed_date: Juillet/Août 2016
+shop: https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html
+
+
+---
+title: Réaliser son dossier de permis de construire avec Blender et LibreCAD
+author: Laurent Delmas
+page: 8
+description: >
+  Blender est bien connu pour son utilisation dans le monde multimédia avec les films d'animation Elephants Dream, Big
+  Buck Bunny et SIntel, ainsi que dans de grands métrages hollywoodiens. Quand à LibreCAD, c'est une alternative au
+  logiciel AutoCAD utilisé en architecture et en mécanique. Nous allons réaliser la conception 3D d'un bâtiment
+  architectural avec Blender et utiliser LibreCA pour la mise en page des plans nécessaires à la constitution d'un
+  dossier de permis de construire.
+
+
+---
+title: Enrichier sa diffusion de contenus multimédias avec OBS
+author: Lucile Lapierre & Nicolas Greneche
+page: 18
+description: >
+  Le terme "visioconférence" implique une multitude de projections en terme d'infrastructure de diffusion. Cela va d'une
+  simple conversation vidéo point à point type Skype à une réunion impliquant des gens éloignés géographiquement et de
+  multiples supports (diaporama, fichiers multimédias, etc.) avec du matériel dédié. Cet article introduit Open
+  Broadcaster Software (OBS), un logiciel libre proposant de gérer et enrichier vos diffusions vidéos.
+
+
+---
+title: Etalonner son écran avec des outils libres
+author: Benoît Benedetti
+page: 24
+description: >
+  Que vous soyez photographe, vidéaste ou graphiste, professionnel ou amateur, l'étalonnage (ou son anglicisme
+  calibration) de votre écran est essentiel si vous voulez restituer le plus difèlement possible vos photos, vidéos et
+  autres réalisations graphiques.
+
+
+---
+title: Protégez votre vue et votre sommeil avec Redshift
+author: Vincent Magnin
+page: 32
+description: >
+  Rester tard le soir devant son écran n'est pas recommandé pour votre sommeil. Et la lumière bleue de vos écrans
+  suscite actuellement des interrogations. Avec Redshift, vous pouvez atténuer les effets négatifs du travail sur écran.
+
+
+---
+title: "Protégez vos données : utilisez des supports chiffrés"
+author: Arnaud Février
+page: 36
+description: >
+  Les installations classiques des systèmes d'exploitation utilisent un disque dur non chiffré. Le système
+  d'exploitation peut protéger les données des utilisateurs lorsqu'il est en fonctionnement, mais un indélicat peut,
+  s'il a un accès physique à la machine, arrêter celle-ci, extraire le disque dur, et lire les données. Pour se protéger
+  contre ces pratiques, la solution consiste à chiffrer le disque dur.
+
+
+---
+title: YunoHost, l'auto-hébergemenbt à portée de main
+author: Annaïg Denis
+page: 44
+description: >
+  Comment faire pour héberger chez soi les différents services et applications que l'on utilise afin de préserver sa vie
+  privée ? Une des solutions se trouve dans la distribution YunoHost qui permet d'installer un serveur de courriels et
+  un serveur XMPP ainsi que de nombreuses applications. Ce tutoriel présente ainsi l'installation et a configuration de
+  YunoHost avec comme base une brique internet, un nano-ordinateur faisant office de serveur. Nous avons choisi d'y
+  installer OwnCloud pour ses services d'agenda, de carnet d'adresses et de synchronisation de fichiers, ainsi que le
+  webmail Roundcube et le client XMPP Jappix. Les applications de la brique internet permettent en outre de simplement
+  pouvoir configurer une connexion sécurisée VPN sur tous les appareils du domicile en intégrant un point d'accès Wifi.
+
+
+---
+title: Test de la tablette Aquaris M10 Ubuntu Edition
+author: Benoît Benedetti
+page: 56
+description: >
+  Alors que Firefox OS vient tout juste d'être abandonné, Canonical continue d'essayer de proposer une alternative à
+  Android et iOS. Nous allons dans cet article voir les dernières nouveautés de son système mobile Ubuntu Touch, qui se
+  veut convergent, en testant la première tablette supportant officiellement ce système, l'Aquaris M10 Ubuntu Edition.
+
+
+---
+title: "HashOver : autorisez les commentaires sur vos sites statiques"
+author: Stéphane Mourey
+page: 62
+description: >
+  Les sites et même les blogs statiques on le vent en poupe, notamment grâce à Jekyll, non sans raison : efficacité,
+  performance, séurité, ils constituent une solution idéale lorsque l'on n'a pas besoin d'un Wordpress ou d'un autre
+  CMS. Une seule chose leur fait défaut : les commentaires des visiteurs. Pour remédier à cela, découvrons aujourd'hui
+  HashOver !
+
+
+---
+title: "Friendica : un réseau pour les gouverner tous ?"
+author: Stéphane Mourey
+page: 67
+description: >
+  Je vous vois froncer les sourciels. A quoi bon un autre réseau social ? N'en n'avons nous pas déjà assez ? Y compris
+  des réseaux libres ? Certes, mais Friendica est différent, notamment grâce à sa capacité à communiquer avec les autres
+  services.
+
+
+---
+title: Manipuler des données avec Drupal
+author: Tris Acatrinei
+page: 77
+description: >
+  Avec l'essor de l'open data et la mise à disposition par des entités publiques ou privées d'un grand nombre de
+  données, les initiatives permettant leurs croisements se développent. Mais encore faut-il pouvoir les intégrer dans un
+  outil. Le présent article va vous expliquer comment le faire avec l'un des CMS/framework les plus robustes du
+  marché : Drupal.
+
+
+---
+title: Surveillez automatiquement le programme de la TNT avec Python
+author: Vincent Magnin
+page: 84
+description: >
+  La concision et la puissance de Python vont nous permettre d'écrire rapidement un petit script pour surveiller
+  automatiquement le programme des nombreuses chaînes de la TNT.
+
+
+---
+title: gérez vos projets agiles avec Taïga
+author: Sébastien Chazallet
+page: 92
+description: >
+  Taiga est une plateforme de gestion de projets agiles dont l'utilisation est à la fois simple et agréable. Gratuite et
+  libre, puissante, mais très accessible et vraiment efficace, elle est l'outil idéal, que vous soyez indépendant ou une
+  équipe de développeurs utilisant la méthode SCRUM.
