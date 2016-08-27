@@ -3,26 +3,133 @@ date: 2016-05-01
 displayed_date: Mai/Juin 2016
 shop: https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html
 
+
 ---
 title: Jouez à l'architecte avec Sweet Home 3D
 author: Stéphane Mourey
 page: 8
-keywords:
-  - software
 description: >
   En février, sortait la version 5.2 de Sweet Home 3D. Voici l'occasion de revenir sur ce logiciel
   à la fois ludique et utile, dont chacun de nous peut avoir besoin. Sweet Home 3D se présente en effet
   comme un "logiciel d'aménagement d'intérieur", mais en réalité ses possibilités sont si vastes que
   vous pourriez vous prendre pour un véritable architecte
 
+
+---
+title: "Montez son serveur de mails : Partie 2"
+author: Cédric Pellerin
+page: 19
+description: >
+  Dans le précédent numéro, nous avons vu comment monter un serveur Postfix et le paramétrer. Dans cette seconde partie,
+  nous allons voir comment ajouter des fonctionnalités à notre serveur en ce qui concerne l'anti-spams et la réception
+  des e-mails.
+
+
+---
+title: La meilleure distribution universelle n'existe pas
+author: Stéphane Blondon
+page: 28
+description: >
+  Pourquoi est-il impossible d'avoir une réponse définitive à la question récurrent de la meilleure distribution Linux ?
+  Si la question suscite de vifs débats, c'est plus souvent dû à une relation passionnelle à l'une d'entre elles qu'à un
+  raisonnement rationnel...
+
+
 ---
 title: DuckDuckGo, le moteur qui ne vous profile pas
 author: Vincent Magnin
 page: 32
-keywords:
-  - service
-  - search
 description: >
   Quand vous utilisez un moteur de recherche tel que GOogle, il vous profile dans le but de personnaliser
   les résultats et les publicités qui vous sont envoyés. DuckDuckGo, lui, n'enregistre aucune information
   sur vous
+
+
+---
+title: Mise en place d'une solution de rediffusion de la TNT à la maison
+author: Arnaud Février
+page: 38
+description: >
+  Le 5 avril la TNT est passée à la HD. Cet événement et la multiplication des écrans dans nos chaumières permettent
+  d'imaginer de nouveaux usages. Celui que nous allons envisager dans cet article consiste à mettre en place une station
+  de rediffusion domestique. AInsi depuis n'importe quel écran de la maison, il sera possible de capter n'importe quelle
+  chaîne de télévision.
+
+
+---
+title: Encodez vos vidéos en H.265/HEVC
+author: Hervé Massicot
+page: 46
+description: >
+  Avec chaque nouvelle année, son lot de résolutions, et une de mes résolutions 2016 est de convertir mes vidéos
+  personnelles qui s'accumulent sur mon disque et prennent de plus en plus de place. Je me suis donc mis en tête
+  d'écrire un script de conversion adapté à la tâche. L'outil qui me semblait le plus adapté est notre bon vieux ffmpeg
+  (16 ans déjà!) capable depuis quelques années d'encoder nos vidéos au format "actuel" H.264, largment supporté par de
+  nombreux appareils. Mais j'ai voulu m'intéresser à une autre norme plus récente : HEVC, qui se veut être le prochain
+  standard et promet des performances sur la compression tout en améliorant la qualité d'image.
+
+
+---
+title: Utilisez des claviers alternatifs plus judicieux sous Android
+author: Arnaud Février
+page: 52
+description: >
+  Même sur les systèmes conviviaux les plus réussis, il faut parfois utiliser le langage articulé et entrer des vrais
+  mots avec de vraies lettres. Android propose quelques claviers utilisables, mais il en existe bien d'autres plus
+  pratiques.
+
+
+---
+title: Comprenez vos visiteurs avec Piwik
+author: Hervé Massicot
+page: 56
+description: >
+  Si je vous dis "web analytics", il est fort à parier que vous me parliez de Google Analytics, un des ténors du
+  secteur. Facile à mettre en oeuvre, séduisant par sa palette d'outils et de services intégrés, il n'en reste pas moins
+  un outil de la galaxie Google. Et en général, se pose la question des données collecées. Piwik fait partie de ces
+  solutions qui proposent une alternative crédible à Google Analytics. En effet, outre le fait d'être open source, il
+  permet d'héberger soi-même les données générées par l'analyse du trafic de son site web. Il n'a rien à envier à Google
+  Analytics en termes de fonctionnalités et c'est même l'outil de mesure d'audience recommandé par la CNIL pour
+  respecter les lois sur la protection des données.
+
+
+---
+title: "LESS: Optimisez votre travail sur les CSS"
+author: Stéphane Mourey
+page: 64
+description: >
+  Less est un générateur de CSS. Ecrit en Javascript, il peut même être perçu comme une façon d'étendre les CSS pour
+  leur offrir de nouvelles possibilités au sein du navigateur. Conçu comme un véritable langage, sa syntaxe permet un
+  développement plus rapide, une implémentation plus cohérente et une maintenance facilitée des styles de votre site.
+
+
+---
+title: "Qu'est-ce que l'open data : introduction & mise en pratique"
+author: Tris Acatrinei
+page: 78
+description: >
+  L'open data permet à tout un chacun de faire des choses assez fascinantes, qui peuvent même s'avérer dérangeantes pour
+  certains acteurs. Quels sont les contours de l'open data ? Qu'avons nous le droit de faire avec les données mises à
+  disposition ? Quelles sont les interactions de l'open data avec la vie privée et la propriété intellectuelle
+  classique ?
+
+
+---
+title: MicroAlg, un langage pour grands débutants
+author: Christophe Gragnic
+page: 84
+description: >
+  Rares sont les langages de programmation qui ont été conçus dans un but pédagogique : Logo, Pascal et quelques
+  autres... MicroAlg s'appuie sur cet héritage et propose un langage avec des mots-clés en français, utilisable avec un
+  éditeur en local ou dans le navigateur, avec du code textuel ou des blocs à déplacer.
+
+
+---
+title: La sauvegarde dee vos équipements réseau avec RANCID
+author: Benoît Benedetti
+page: 94
+description: >
+  Bien que vos équipements réseaux n'hébergent pas de données, vos switches et pare-feu nécessient que vous ayez une
+  stratégie de sauvegarde afin de pouvoir les reconfigurer rapidement. Alors, à moins que vous ayez déjà adopté une
+  solution de gestion de configuration automatisée et centralisée de ces équipements, je vous propose de découvrir
+  RANCID pour effecter leur sauvegarde.
