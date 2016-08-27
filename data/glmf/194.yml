@@ -3,13 +3,232 @@ date: 2016-06-01
 displayed_date: Juin 2016
 shop: https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html
 
+
 ---
 title: Le langage Perl 6, poursuite du tour d'horizon
 author: Laurent Rosenfeld
 page: 6
 keywords:
-  - perl
-  - programmation
+  - conditions
+  - boucles
+  - fonctions
+  - fonctions multiples
+  - opérateurs
+  - programmation fonctionnelle
 description: >
   Nous poursuivons ici le tour d'horizon du nouveau langage Perl 6 en abordant les structures
   de contrôles, les fonctions et la construction de nouveaux opérateurs.
+summary: >
+  Dans le premier volet de ce tour d'horizon du nouveau langage de programmation Perl 6, nous avons notamment présenté
+  les différents types de variables et les principaux opératuers du langage. Le présent article décrit notamment les
+  principales structures de contrôle : les conditions (if, unless, given ... when) et les boucles (for, while, until,
+  loop). Il montre ensuite comment créer des fonctions dotées de signatures fortement ou faiblement typées, au choix de
+  l'utilisateur ; on verra notamment comment des signatures différentes permettent d'écrire des fonctions (fonctions
+  dites multiples) ayant le même nom, mais faisant des choses différentes selon le nombre et le type de leurs arguments.
+  Nous verrons enfin combien il est facile de créer dynamiquement de nouveaux opérateurs permettant d'étendre le
+  langage.
+
+
+---
+title: "PostgreSQL 9.5 : Les nouvelles fonctionnalités SQL"
+author: Guillaume Lelarge
+page: 14
+keywords:
+  - PostgreSQL
+  - Nouveautés
+  - Standard SQL
+  - Fonctions OLAP
+  - Sharding
+description: >
+  La version 9.5 de PostgreSQL apporte de nombreuses nouveautés. COmme il serait difficile de tout énumérer en un seul
+  article, nous allons aborder ici certaines fonctionnalités relatives au SQL et aux utilisateurs finaux de PostgreSQL.
+  Un gros travail a été effectué par les développeurs pour permettre de gérer de plus gros vbolumes de données, et cela
+  se voit dans les fonctionnalités que nous allons décrire maintenant.
+summary: >
+  PostgreSQL est un moteur de bases de données évoluant constamment. Avec une nouvelle version majeure chaque année, il
+  est souvent difficile de suivre les améliorations apportées. Cet article a pour but de détailler quelques
+  fonctionnalités importantes au niveau SQL proposées par la version 9.5. Il cible principalement les développeurs qui
+  travaillent avec PostgreSQL, mais aussi les utilisateurs et les administrateurs.
+
+
+---
+title: Je suis pas analyste !
+author: Jean-Pierre Troll
+page: 18
+keywords:
+  - Humeur
+  - Jean-Pierre Troll
+  - Coup de gueule
+  - Analyste
+description: >
+  J'ai plus d'abonnements au Gartner, Forrester et autres cabinets d'analystes. Enfin, ma boîte me donne plus les accès
+  à cette si substantifique moelle de réflexion, d'analyse, de synthèse, de futurologie ! Ça tombe bien, car ça
+  commençait à fortement me soûler toute cette logorrhée marketing reprise la bouche en coeur par mes collègues, mes
+  managers, mes clients, ma copine, mon chat... (je n'ose ni n'arrive à mettre d'ordre dans cette liste !)
+summary: >
+  Le retour de la revanche de Jean-Pierre Troll. Après une mise au vert, la démangeaison du coup de gueule me reprend.
+  Un peu comme un éternuement que j'essayais de contenir... Pour ce retour, je propose une analyse alternative de la
+  transformation digitale. Plutôt que les technologies, je propose de se concentrer sur les usages. Et la convergence et
+  l'interrelation de quatre changements de paradigmes majeurs dans les usages donnent ce que je baptse le "Plexus" :
+  hyperconnexion, consumérisation, commoditisation et intermédiation. Ok, "Beam me Mr Spock !".
+
+
+---
+title: "Peut-on vraiment calculer avec un ordinateur : les opérations"
+author: Florent Langrognet
+page: 22
+keywords:
+  - Calcul
+  - Réels
+  - Flottants
+  - Précision
+  - Arithmétique
+  - Norme
+description: >
+  Nous avons vu le mois dernier comment étaient représentés les réelsz sur ordinateur. Il est temps maintenant
+  d'utiliser ces réels (les flottants) pour calculer. Quels sont les mécanismes mis en oeuvre lors de chaque opération ?
+  A quelle(s) étape(s) des erreurs de précision peuvent-elles apparaître ? L'ordre des calculs a-t-il une importance sur
+  la qualité des résultats ? Vous trouverez les réponses à toutes ces questions (et bien d'autres) dans les pages de cet
+  article.
+summary: >
+  Après avoir expliqué comment les réels étaient représentés sur ordinateur, nous allons montrer dans les détails
+  comment se déroulent deux opérations (l'addition et la soustraction). Ainsi, nous verrons les causes des erreurs de
+  précision et quelles sont les pistes pour les contenir. Nous regarderons ensuite ce qui se passe avec les autres
+  opérations et conlurons.
+
+
+---
+title: Décoder un code QR
+author: Nicolas Patrois
+page: 32
+keywords:
+  - Python
+  - Code QR
+  - Programmation orientée objet
+  - Algorithme
+description: >
+  Une fois que l'on sait déchiffrer un code QR, il faut le décoder... et il y a encore du travail avant de pouvoir lire
+  son contenu.
+summary: >
+  Nous allons décortiquer le code QR petit à petit pour en extraire les informations utiles à la lecture de son contenu.
+  Le code et les fichiers utiles sont sur Github.
+
+
+---
+title: Chiffrer une partition avec LVM et LUKS
+author: Tristant Colombo
+page: 42
+keywords:
+  - Chiffrement
+  - LVM
+  - Debian
+  - Partition
+  - LUKS
+description: >
+  Un nouvel ordinateur portable ? Il est essentiel de chiffrer votre disque ! Pour cela, nous allons utiliser un
+  conteneur LVM (Logiciel Volume Manager) pour les données et les chiffrer avec un conteneur LUKS (Linux Unified
+  Key Setup)
+
+
+---
+title: Gestion de paquets sûre et flexible avec GNU Guix
+author: Ludovic Courtès
+page: 46
+keywords:
+  - Gestion de paquets
+  - Distribution
+  - Programmation fonctionnelle
+  - GNU
+description: >
+  Les distributions GNU/Linux classiques sont mal aimées. Cet article revient sur leurs limites et donne un aperçu de la
+  solution que propose le projet GNU avec Guix, un gestionnaire de paquets transactionnel, flexible et personnalisable.
+summary: >
+  Linux Weekly News dénombre plus de 500 distributions GNU/Linux et y voit une "célébration de la diversité". Avec ça,
+  le problème de la distribution de logiciels a été largement exploré, et probablement largement résolu, se dit-on. Et
+  pourtant ! Cet article traite d'un nouveau gestionnaire de paquets, GNU Guix, qui fournit mises à jour
+  transactionnelles, retours en arrière, et ext extensible et personnalisable à souhait.
+
+
+---
+title: "Déconnexion PDO : du comptage de références en PHP"
+author: Gabriel Zerbib
+page: 52
+keywords:
+  - PHP
+  - Référence counting
+  - PDO
+  - Closures
+description: >
+  Vous utilisez pour votre projet les composants populaires et éprouvés de l'écosystème PHP et mettez en oeuvre les
+  pratiques recommandées dans les manuels. Pourtant votre application se heurte à des problèmes de conception : une
+  piste se cache peut-être ici.
+summary: >
+  PHP, comme la plupart des langages dynamiques, offre un mécanisme de collecte de résidus qui affranchit le développeur
+  de se préoccuper de la gestion de la mémoire. Il est notre ami, mais il est préférable de savoir travailler avec lui
+  pour éviter certains désagréments liés à la structure du langage.
+
+
+---
+title: Programmer avec GTK+
+author: Christophe Borelly
+page: 58
+keywords:
+  - GTK+
+  - Langage C
+  - applications graphiques
+  - Evénements
+  - Styles
+  - Internationalisation
+description: >
+  Cet article va vous présenter les rudiments de la programmation d'applications graphiques en C à l'aide de la boîte
+  à outils GTK+ (GIMP Toolkit).
+summary: >
+  Dans cet article, vous apprendrez à développer une petite application en C permettant de simuler un système
+  d'authentification utilisateur. Vous découvrirez comment organisez les éléments graphiques dans la fenêtre, comment
+  gérer les événements utilisateur (comme le clic sur un bouton), comment paramétrer le style des éléments avec du CSS
+  (Cascading Style Sheet) comme en HTML, et enfin comment internationaliser l'application (c'est à dire afficher les
+  textes en fonction de la langue utilisée).
+
+
+---
+title: Un vrai language
+author: Guillaume Saupin
+page: 66
+keywords:
+  - C++
+  - Lisp
+  - LLVM
+  - Compilation
+  - Parseur
+  - Langage
+description: >
+  Les deux précédents articles de cette série nous ont permis de mettre au point les fonctionnalités de base de notre
+  langage de programmation. Nous sommes maintenant outillés pour pouvoir parser et évaluer des expressions d'un
+  langage de type Lisp. De plus, nous disposons d'un mécanisme de plugins permettant d'étendre facilement notre langage.
+  Nous allons maintenant passer aux choses sérieuses et permettre à notre langage de s'étendre en déclarant des
+  fonctions et surtout en supportant les macros.
+summary: >
+  Dans ce troisième article, nous allons étendre très largement les possibilités de notre langage, en ajoutant non
+  seulement les fonctions, mais aussi les macros. Pour cela, nous commencerons par ajouter quelques structures pour le
+  contrôle de flux, comme l'indispensable if. Nous détaillerons ensuite la forme spéciale let, qui permet d'ajouter des
+  variables. Il apparaîtra ensuite que l'ajout de fonctions est finalement proche de cette forme. Enfin, nous irons au
+  delà de ce que sont capables de faire la plupart des langages en dotant notre langage de macros.
+
+
+---
+title: (Re)découvrons jQuery
+author: Laurent Navarro
+page: 74
+keywords:
+  - jQUery
+  - HTML
+  - CSS
+  - Javascript
+  - Web
+  - Programmation
+description: >
+  jQuery est une bibliothèque connue de tous ceux qui développent sur le Web, parfois juste de nom, parfois juste parce
+  qu'ils ont copié/collé quelques lignes magiques, je vous invite aujourd'hui à l'étudier d'un peu plus près.
+summary: >
+  L'objectif de cet article est de reprendre les bases de jQuery afin de formaliser un peu son utilisation et d'essayer
+  d'aller un peu plus loin que les utilisations ultra-basiques.
