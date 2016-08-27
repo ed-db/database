@@ -3,15 +3,153 @@ date: 2016-03-01
 displayed_date: Mars/Avril 2016
 shop: https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html
 
+
 ---
 title: Conception 3D d'une clé USB avec FreeCAD
 author: Laurent Delmas
 page: 8
 keywords:
-  - software
+  - blender
+  - FreeCAD
+  - 3D
 description: >
   Vous connaissez tous Blender, le logiciel libre de modélisation 3D, mais probablement pas
   FreeCAD. Ce dernier est un logiciel de conception paramétrique comme les logiciels professionnels tels
   que SolidWorks ou Catia. FreeCAD permet entre autres la conception et la mise en plan de pièces 3D.
   Sa modularité lui permet d'étendre ses possibilités au Raytracing, à l'impression 3D en passant par
   l'assemblage complet de mécanismes et la simulation par calculs.
+
+
+---
+title: "Monter son serveur de mails : Partie 1"
+author: Cédric Pellerin
+page: 16
+keywords:
+  - postfix
+  - smtp
+description: >
+  Comment monter à la main un serveur mail complet dans le but de comprendre ce que l'on fait et de maîtriser son
+  installation de A à Z ?
+
+
+---
+title: Les paradis numériques existent-ils ?
+author: Tric Acatrinei
+page: 26
+description: >
+  Depuis la promulgation de la loi HADOPI 2, puis de la LOPPSI et d'autres textes comme la loi sur le renseignement, la
+  question de savoir où est-ce que les internautes peuvent encore préserver un minimum d'intimité numérique surgit et
+  avec elle, celle des paradis numériques.
+
+
+---
+title: "Let's Encrypt : le chiffrement gratuit, ouvert et automatisé sur internet"
+author: Christophe Brocas
+page: 30
+description: >
+  Dans le numéro 91 de Linux Pratique, nous avons décrit comment mettre en oeuvre de manière sécurisée l'accès via TLS
+  à votre site web. Mais la relative complexité de la procédure ou le coût d'achat des certificats numériques pouvait
+  compliquer cette mise en oeuvre. Une initiative a été lancée par Mozilla, l'EFF et d'autres partenaires pour
+  s'attaquer à ces difficultés : Let's Encrypt.
+
+
+---
+title: Ne vous faitesz plus pister sur le web avec Privoxy !
+author: Stéphane Mourey
+page: 38
+description: >
+  Surfez sur le Web est une expérience où il est difficile de garder le contrôle : de multiples techniques sont mises
+  en oeuvre pour vous traquer. Le moindre mal, car le plus visible, est de vous "offrir" des publicités ciblées et
+  envahissantes qui vous suivent d'un site à l'autre. Avec Privoxy, offrez vous un peu plus d'intimité et de confort.
+
+
+---
+title: Apprendre à manipuler le PDF en 10 cas pratiques
+author: Hervé Massicot
+page: 52
+description: >
+  Le format PDF est un format de fichier aujourd'hui largement répandu, car son gros avantage est de conserver la mise
+  en forme du document (police, images, etc.) ceci peu importe la machine (PC, smartphone, liseuse...) ou le système
+  d'exploitation. Mais ce gros avantage peut devenir contraignant. En effet, nous ne disposons pas tous de la suite
+  logicielle Adobe permettant facilement de manipuler nos fichiers PDF. Avez vous déjà pesté face à votre écran, car il
+  fallait modifier le fichier d'origine et régénérer un fichier PDF ? Il existe de nombreuses solutions à nos soucis du
+  quotidien. Nous allons dresser dans ce dossier une liste des problématiques fréquentes et donner le moyen d'y
+  remédier.
+
+
+---
+title: Nettoyage des vieux noyaux GNU/Linux obsolètes
+author: Thierry Gayet
+page: 58
+description: >
+  Il arrive parfois que notre distribution favorite possède une collection de vieux noyaux GNU/Linux dus aux différentes
+  mises à jour successives. Pour ce faire, je propose d'étudier une solution permettant de purifier un peu tout cela et
+  par la même occasion de libérer de la place.
+
+
+---
+title: Gérez votre site Wordpress où que vous soyez
+page: 64
+description: >
+  Bonne nouvelle pour les utilisateurs du célèbre CMS, Wordpress met à disposition de ces derniers une application
+  Android et iOS leur permettant de gérer leur site directement depuis leur mobile. Même si celà ne vaut évidemment pas
+  le confort du travail d'un PC, l'application en question en fera un excellent outil d'appoint pour intervenir sur son
+  site où que l'on se trouve. On s'intéressera évidemment ici à l'application développée pour la plateforme Android.
+
+
+---
+title: "Piwigo : votre galerie photo personnelle en ligne"
+author: Yann Morère
+page: 68
+description: >
+  Vous prenez constamment des photos avec votre smartphone. Si vous souhaitez les partager et les organiser en ligne,
+  elles peuvent ensuite automatiquement téléversées dans l'application Photos sur les serveurs de Google via votre
+  compte "Android". Vous donnez ainsi accès à vos informations personnelles à une grande multinationale. Pourquoi ne
+  pas reprendre le contrôle de vos données et gérer vous-même vos photos en ligne à l'aide de Piwigo ?
+
+
+---
+title: Dopez vos CSS avec SASS
+author: Stéphane Mourey
+page: 74
+description: >
+  Les CSS constituent un outil remarquable qui permettent de gérer facilement le style de toutes les pages d'un site en
+  seulement quelques fichiers. Ils permettent une factorisation en permettant de combiner à l'infini des règles de style
+  pouvant s'appliquer à de multiples éléments. A l'infini ? Oui, et on en arrive bientôt à des dizaines de fichiers de
+  milliers de lignes... D'où la naissance des langages de génération de CSS qui permettent de leur donner une couche
+  d'abstraction supplémentaire et de mettre à jour bien plus facilement le style d'un site.
+
+
+---
+title: Un CRM, mais en fait, à quoi ça sert ?
+author: Jean-Micherl Armand
+page: 80
+description: >
+  Certains d'entre vous ont peut-être décidé de tenter la grande aventure de la création d'entreprise ou du freelance.
+  Vous êtes peut-être déjà en plein dedans ou c'est un projet que vous espérez pouvoir bientôt réaliser. Dans tous les
+  cas, pour espérer pouvoir faire vivre votre activité, vous allez devoir trouver des clients. Le CRM est l'outil qui
+  peut vous aider à organiser et à optimiser cela. Nous allons voir dans cet article ce qui se cache vraiment derrière
+  cet acronyme.
+
+
+---
+title: Communiquz librement avec Mattermost
+author: Benoît Benedetti
+page: 84
+description: >
+  Mattermost est un outil de communication collaborative, clone libre de Slack. Slack, cet outil sorti il y a moins d'un
+  an, qui a très vite été adopté, car il facilite la communication d'entreprise, dont la start-up qui est estimée
+  désormais à plus d'un milliard de dollars. Mattermost réunit donc le meilleur des deux mondes : les fonctionnalités de
+  slack, et un code source libre et auto-hébergeable, pour rester maître de vos données et communications.
+
+
+---
+title: "Tout ce qu'il faut savoir sur le protocole LDAP Partie II : La pratique"
+author: Mejri Issam
+page: 90
+description: >
+  Si vous êtes en train de lire cet article, c'est que vous avez de la chance ! Pourquoi ? Car vous allez découvrir le
+  serveur LDAP de référence OpenLDAP et également tout ce qui est nécessaire pour une prise en main rapide et efficace,
+  notamment dans un environnement de production. Vous aurez l'occasion de parcourir OpenLDAP depuis son installation,
+  jusqu'à la configuration poussée de ce dernier et par conséquent une maîtrise parfaite de son implémentation en tant
+  que service fondamental dans une infrastructure réseau de moyenne ou grande taille.
