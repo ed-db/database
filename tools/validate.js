@@ -38,6 +38,7 @@ var schemaArticle = Joi.object().keys({
     page: Joi.number().integer().min(1).required(),
     keywords: Joi.array().items(Joi.string()),
     description: Joi.string().required(),
+    summary: Joi.string(),
     number: Joi.number().integer().min(1).required(),
     type: Joi.string().required(),
     date: Joi.date().iso().required(),
@@ -57,7 +58,7 @@ function validateMagazine(magazine, filePath) {
   // First validate the magazine object
   Joi.validate(magazine, schemaMagazine, function (err) {
     if (err === null) return;
-    throw err.details[0].message + ' in magazine ' + JSON.stringify(doc);
+    throw err.details[0].message + ' in magazine ' + JSON.stringify(magazine);
   });
 
   // Then validate that there exists a magazine cover picture
@@ -83,7 +84,7 @@ function validateArticle(article) {
   // Validate the article
   Joi.validate(article, schemaArticle, function (err) {
     if (err === null) return;
-    throw err.details[0].message + ' in article ' + JSON.stringify(doc);
+    throw err.details[0].message + ' in article ' + JSON.stringify(article);
   });
 }
 

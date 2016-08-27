@@ -1,0 +1,254 @@
+---
+date: 2016-07-01
+displayed_date: Juillet/Août 2016
+shop: https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html
+
+
+---
+title: "PostgreSQL 9.5 : Encore des nouveautés"
+author: Guillaume Lelarge
+page: 6
+keywords:
+  - PostgreSQL
+  - Nouveautés
+  - Maintenance
+  - SQL
+  - Configuration
+description: >
+  On continue notre tour des nouveautés au niveau SQL de la version 9.5. Mais nous allons aussi détailler
+  quelques fonctionnalités intéressantes principalement les DBA, avec quelques nouveautés sur la maintenance
+  et la configuration.
+summary: >
+  PostgreSQL est un moteur de bases de données évoluant constamment. Avec une nouvelle version majeure chaque
+  année, il est souvent difficile de suivre les améliorations apportées. Cet article a pour but de détailler quelques
+  fonctionnalitées importantes proposées par la version 9.5 pour les DBA.
+
+
+---
+title: Les réseaux Asociaux
+author: Jean-Pierre Troll
+page: 12
+keywords:
+  - humeur
+  - Jean-Pierre Troll
+  - Coup de gueule
+  - Réseaux sociaux
+description: >
+  Hum... Autant le dire direct: c'est de la m... J'aime pas ! Traitez-moi de reac' si vous voulez, mais surtout,
+  faites-le bien sur votre plateforme sociale préférée (pfff...), vous ne ferez rien d'autre que prouver mon point.
+summary: >
+  Je développe ma description de ce que j'ai baptisé le Plexus dans mon précédent article... Sur ce coup de gueule, je
+  précise ce qui m'énerve dans les réseaux que je qualifie d'asociaux : l'hyperconnexion et l'hyperconsommation
+  nourissent en effet miroir par l'hyporéflexion des hyponautes que nous devenons. J'espère qu'avec un tel résumé vous
+  êtes déjà sonnés, motivés ou que vous avez passé votre chemin (genre "pfff, Jean-Pierre a encore pété un câble
+  et en plus maintenant il invente des mots !")
+
+
+---
+title: Expliquer un corps fini
+author: Nicolas Patrois
+page: 16
+keywords:
+  - Python
+  - Corps finis
+  - Programmation orientée objet
+  - Algorithme
+description: >
+  Pour corriger un code QR avec erreur ou rature, on a besoin de savoir manipuler un corps fini précis, F256, encore
+  faut il savoir de quoi on parle.
+summary: >
+  En vue de corriger les codes QR décorés ou abîmés, on a besoin de notions mathématiques plus poussées. Cet article
+  va présenter la notion mathématique de corps fini, sur laquelle le code correcteur Reed-Solomon est construit.
+  On construira en Python le coprs Z/pZ où p est un nombre premier. Les codes sont disponibles sur Github.
+
+
+---
+title: Bienvenue dans le monde des descripteurs de fichiers
+author: Sami ben Youssef
+page: 20
+keywords:
+  - Descripteurs de fichiers
+  - Table des fichiers ouverts
+  - Appels systèmes
+  - Fonctions de bibliothèques
+  - Zone u
+description: >
+  Les descripteurs de fichiers vous disent-ils quelque chose ? Pourtant ils sont présents dans les processus que
+  vous lancez, se sont les clés de manipulations de vos fichiers, vos sockets, vos pipes...etc. Je vous invite alors
+  à découvrir le petit monde de ces puissantes variables de type entier qui se loge, sans permission, dans vos
+  processus dès leur création.
+summary: >
+  NOus présenterons les descripteurs de fichiers du point de vue emplacement et intéraction avec les éléments de
+  l'univers où ils opèrent du côté développeur et du côté système moyennant les appels systèmes et les fonctions
+  des bibliothèques. Par la suite, nous avons consacré une partie, orientée surtout vers la pratique, dans laquelle
+  on a détaillé la manipulation et la visualisation des descripteurs de fichiers d'un processus dont on a créé le code.
+
+
+---
+title: Configurer à chaud votre serveur OpenLDAP
+author: Antoine le Morvan
+page: 28
+keywords:
+  - Annuaire
+  - OLC
+  - TLS
+  - OpenLDAP
+  - Sécurisation
+description: >
+  Le serveur d'annuaire OPenLDAP a déjà fait l'objet de nombreux articles dans GLMF, expliquant son installation, sa
+  prise en main, la mise en place d'index ou d'ACL. Concentrons-nous aujourd'hui sur la "nouvelle" façon de modifier
+  la configuration du serveur OpenLDAP à chaud.
+
+
+---
+title: Démystification de l'attaque par buffer overflow
+author: Stéphane Lonkeng Toulepi
+page: 35
+keywords:
+  - Buffer overflow
+  - attaque
+  - C
+  - Python
+  - GNU debugger
+  - gdb
+  - shellcode
+  - assembleur
+  - registre
+description: >
+  On entend beaucoup parler des buffer overflow ("débordement de tampon" en français). Il paraît que c'est un
+  problème dans la programmation en C qui entraîne un crash lors de l'exécution et qui peut être utilisé par un
+  hacker... Ok, ça tout le monde le sait :-|. On entend beaucoup parler de ça mais c'est quoi concrètement ? Comment
+  peut-on réussir à prendre le contrôle d'une machine par un "débordement de tampon" ? Et apparamment ça se fait
+  même à distance !
+summary: >
+  Les attaques par buffer overflow nécessitent des connaissances en organisation mémoire et en programmation C.
+  Pour illustrer tout ceci, nous allons commencer par prendre un code C simple vulnérable au buffer overflow ; nous
+  allons ainsi analyser l'exécution du programme avec gdb qui nous permettra justement de comprendre le buffer
+  overflow. Enfin, nous allons montrer comment utiliser le buffer overflow pour éxecuter un code arbitraire et dans
+  le cas d'espèce, un shell.
+
+
+---
+title: Filtrez vos courriels avec python
+author: Cyril Roelandt
+page: 42
+keywords:
+  - Python
+  - Courriel
+  - IMAP
+  - Filtres
+  - imaplib
+description: >
+  Vous utilisez sans dout IMAP (Internet Message Access Protocol) pour lire votre courrier. N'avez vous jamais eu
+  envie d'écrire un script utilisant ce protocole afin d'effectuer des opérations courantes (marquer un fil de
+  discussion comme lu, le déplacer, etc.) automatiquement ? C'est possible grâce à Python et son module imaplib, qui
+  fait partie de la bibliothèque standard.
+
+
+---
+title: Apprenez à tenir vos promesses avec javascript
+author: Stéphane Mourey
+page: 46
+keywords:
+  - Javascript
+  - Promesse
+  - Fonction de rappel
+  - Traitement asynchrone
+  - Prallélisme
+  - Méthodologie
+description: >
+  Passées dans le standard EcmaScript 6, les promesses sont un concept algorithmique bien utile pour la programmation
+  d'applications asynchrones. Implémentées d'abord par certaines bibliothèques, elles bénéficient maintenant du
+  support natif de Javascript.
+summary: >
+  Les promesses sont un concept de programmation utilisé pour anticiper un résultat sans bloquer l'application en
+  l'attendant. A ce titre, elles se révèlent particulièrement utiles dans le cadre d'une application web et permettent
+  d'imaginer une méthodologie où le fonctionnement asynchrone dépasse celui des simples requêtes AJAX.
+
+
+---
+title: "Déstructurez vos documents: conversion latex vers libreoffice"
+author: Arnaud Février
+page: 50
+keywords:
+  - Latex
+  - Tex
+  - libreoffice
+  - ODT
+  - Traitement de texte
+  - format de fichier
+description: >
+  Nous sommes nombreux à savoir quel est le meilleur traitement de texte de la galaxie : le mien ! Quelques êtres
+  faibles en utilisent d'autres par mégarde. Dans notre immense magnanimité, nous pouvons rédiger un document dans
+  notre format favori et leur mettre à disposition dans leur format. Nous montrons dans cet article comment convertir
+  un document latex en libreoffice. Il se pourrait que d'autres articles plus généraux suivent.
+summary: >
+  Nous présentons dans cet article un des nombreux logiciels de conversions interformat pour les traitement de texte.
+  Il s'agit du transformer un document, rédigé en LaTeX en un autre format. Nous présentons text4ht, qui converti les
+  documents TeX ou LaTeX en un format html ou libreoffice. Nous montrons comment les formules mathématiques, une des
+  spécialités de LaTeX sont transformées dans le format mathématique de LibreOffice. Enfin, nous présentons quelques
+  éléments qui permettront d'affiner la transformation.
+
+
+---
+title: "Python : un environnement vraiment isolé avec GNU Guix"
+author: Cyril Roelandt
+page: 54
+keywords:
+  - Python
+  - Environnement isolé
+  - Virtualenv
+  - GNU Guix
+  - Gestion de paquets
+description: >
+  Peut-on créer facilement un environnement de tests complètement reproductible pour son application Python ? La
+  solution est-elle vraiment Virtualenv ? Un gestionnaire de paquets fonctionnels ne ferait-il pas mieux l'affaire ?
+summary: >
+  Virtualenv est un logiciel très populaire chez les développeurs Python : il leur permet de définir des environnements
+  virtuels au sein desquels ils peuvent installer des paquets Python sans modifier l'état de leur système. Nous verrons
+  dans cet article que cette approche présente quelques problèmes et montrerons comment les résoudre en utilisant GNU
+  Guix.
+
+
+---
+title: Réalisation d'un automatisme d'objets connectés sans cloud ni smartphone
+author: Nicolas Gachadoit
+page: 58
+keywords:
+  - Objets connectés
+  - Bluetooth Low Energy
+  - BLE
+  - Automatisation
+  - Python
+  - iBeacon
+  - wifi
+description: >
+  Découvrer comment exploiter sur votre réseau local, avec des matériels et logiciels adaptés, des produits conçus
+  pour l'IoT.
+summary: >
+  Les objets connectés ouvrent une nouvelle voie aux programmeurs non bidouilleurs : il est désormais possible de
+  réaliser soi-même des automatismes domotiques sans utiliser de fer à souder ni risque de s'électrocuter.
+  Malheureusement, leurs fabricants, obnubilés par l'immense marché du Cloud et des Apps pour smartphone, ne rendent
+  pas ces tâches immédiatement réalisables.
+  L'objectif de cet article est de montrer qu'en utilisant Python avec des matériels et librairies adquates, on peut
+  réaliser facilement un éclairage automatique personnalisé sur la base d'un SensorTag (objet multicapteurs
+  communiquant en Bluetooth Low Energy), d'une balise iBeacon et d'une ampoule connectée en Wifi.
+
+
+---
+title: Vision assistée par ordinateur via OpenCV
+author: FLorent Thevenet
+page: 68
+keywords:
+  - OpenCV
+  - Traitement d'images
+  - Analyse d'images
+  - Vision assistée par ordinateur
+  - Java
+description: >
+  Comment reconnaître un objet sur une image ? Comment corriger la perspective d'une image ? Apprenez à utiliser les
+  algorithmes d'OpenCV au travers d'exemples pour traiter et analyser des images.
+summary: >
+  La vision par ordinateur combine deux aspects. Le traitement transforme l'image acquise pour améliorer sa qualité,
+  dans le but de l'analyser par la suite pour en extraire les informations souhaitées. Ces deux phases sont traitées
+  dans cet article avec la bibliothèque OpenCV qui permet une mise en oeuvre rapide des mécaniques de vision numérique.

@@ -6,12 +6,13 @@
 "use strict";
 
 var gulp = require('gulp');
+var path = require('path');
 var data = require('gulp-data');
 var debug = require('gulp-debug');
 var sizeOf = require('image-size');
 
-var VALID_HEIGHT = 352;
-var VALID_WIDTH = 264;
+var VALID_HEIGHT = 600;
+var VALID_WIDTH = 450;
 
 
 module.exports = function() {

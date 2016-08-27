@@ -100,7 +100,7 @@ description: >
 
 Chaque fichier représente la couverture d'un magazine. Il est nommé XXX.jpg où XXX est le numéro du magazine (*Si le numéro est inférieur à 100, ajouter des 0 à gauche pour qu'il soit sur 3 chiffres*).
 
-Les couvertures doivent être au format **264x352**. En règle générale, utiliser l'image de couverture de la page détail sur la boutique.
+Les couvertures doivent être au format **450x600**. En règle générale, utiliser l'image de couverture dans la liseuse sur la page boutique.
 
 ## Développement
 
