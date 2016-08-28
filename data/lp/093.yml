@@ -1,0 +1,157 @@
+---
+date: 2016-01-01
+displayed_date: Janvier/Février 2016
+shop: https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html
+
+
+---
+title: Intégration de modélisation 3D dans une photo et caméra mapping avec Blender et BLAM
+author: Anthony Carré
+page: 10
+description: >
+  Vous souhaitez intégrer une modélisation 3D dans une prise de vue réelle. Pour cela, vous utiliserez certainement
+  Blender, la référence libre pour l'animation 3D. Pour que votre intégration soit réussie, vous devrez commencer par
+  une étape relativement laborieuse, mais toutefois obligatoire : ajuster les paramètres de la caméra virtuelle pour la
+  faire coïncider avec la caméra que vous avez utilisée pour filmer votre prise de vue. Etape laborieuse ? Non ! BLAM
+  est là pour vous simplifier la tâche.
+
+
+---
+title: Réparez les objets du quotidien avec la 3D
+author: Hervé Massicot
+page: 18
+description: >
+  Je ne sais pas vous, mais j'accumule une quantité de petites choses à réparer à la maison. Entre les jouets de mes
+  enfants, les petits bidules et autres machins, j'adopte quand je peux le système D. Colle, scotch, bricolage en tout
+  genre... Ces réparations d'infortune sont la plupart du temps frustrantes, car elles ne réussissent pas toujours. Cela
+  tient certainement à mon niveau de bricolage, mais pas que... En effet, il est parfois tout bonnement impossible
+  d'effectuer la réparation, ceci de par la nature de l'objet ou de la pièce, mais parfois pire, il est impossible de
+  trouver ou commander le morceau qu'il vous faut remplacer. Et quand cela l'est, c'est en général toute une partie
+  qu'on vous vend à un prix tellement honteux que cela vous incite à renouveler votre appareil/objet. Or, depuis
+  l'avènement de l'impression 3D pour le grand public, je me dis qu'il doit être possible de remédier à ce problème. Je
+  me suis donc mis en tête de devenir un bricoleur 2.0.
+
+
+---
+title: Réaliser ses gravures laser à l'aide d'Inkscape
+author: Yann Morère
+page: 24
+description: >
+  Dans le précédent Linux Pratique, je vous ai rapidement présenté les nouveautés d'Inkscape 0.91. J'ai volontairement
+  passé sous silence une nouvelle extension : Gcodetools. Elle permet de générer, à partir de vos compositions Inkscape,
+  des fichiers G-code pour piloter des machines à commande numérique industrielles. Nous l'utiliserons ici pour réaliser
+  de la gravure à l'aide d'une petite découpeuse/graveuse laser.
+
+
+---
+title: Monitoring réseau simple et rapide avec LibreNMS
+author: Benoît Benedetti
+page: 32
+description: >
+  Vous avez peut-être déjà essayé d'utiliser votre Nagios pour générer des graphiques et cartes de votre réseau. Déçu,
+  vous vous êtes tourné vers une solution dédiée au monitoring réseau tel le fidèle Cacti, mais ses modèles par défaut
+  ne vous ont pas donné satisfaction, vous vous êtes perdu dans sa configuration et son interface vieillissante a fini
+  de vous faire fuir. Las, vous vous êtes tourné vers la version communautaire d'Observium, à la merci de ses
+  développeurs. Dans cet article, nous allons voir comment vous tirer de là avec LibreNMS.
+
+
+---
+title: "La vie privée en Europe : des législations nationales à une question globale"
+author: Tris Acatrinei
+page: 40
+description: >
+  Nous abordons très régulièrement la question de la vie privée dans ce magazine. Dans l'avant dernier numéro de Linux
+  Pratique, nous étions revenus sur la notion de vie privée en France. Aujourd'hui, nous passons à l'échelon supérieur
+  pour comment nos voisins européens s'en sortent.
+
+
+---
+title: "Clipperz : l'open source comme modèle de sécurité ?"
+author: Stéphane Mourey
+page: 46
+description: >
+  Clipperz se présente comme un service en ligne vous permettant de stocker anonymement vos mots de passe et autres
+  données cryptées de telle façon à ce que même le prestataire ne puisse les connaître. Pratique, sécurisé, et open
+  source : que demander de plus ?
+
+
+---
+title: Chiffrez vos serveurs web
+author: Arnaud Février
+page: 52
+description: >
+  L'actualité parle beaucoup de sécurité des sites Internet. Les mentions de sites craqués sur lesquels les facétieux ou
+  malfaisants ont changté le message d'origine sont légions. Pour se protéger de telles attaques, il faut sécuriser
+  le système d'exploitation et les logiciels de création de sites. Mais même si le serveur légitime n'a pas été craqué,
+  il est possible pour un attaquant d'usurper l'adresse du site et donc de fournir de fausses informations ou de
+  capturer les données de la transaction. Nous allons montrer comment sécuriser la communication entre le navigateur et
+  le serveur.
+
+
+---
+title: Colorisez vos textes avec la commande HL
+author: Martial Bornet
+page: 60
+description: >
+  L'objectif de cet article est de vous donner les moyens de mettre en évidence très simplement des fragments de texte
+  en les colorisant avec la commande hl (disponible sur Github), après les avoir spécifiés au moyen d'expressions
+  régulières. Les configurations disponibles dans les fichiers de configuration vous permettront d'utiliser cette
+  commande directement pour des besoins courants, mais quelques rappels sur les expressions régulières vous aideront à
+  développer vos propres configurations, vous permettant par exemple de coloriser facilement vos fichiers de logs ou
+  résultats de commandes.
+
+
+---
+title: Enchérissez automatiquement avec eSniper
+author: Vincent Magnin
+page: 70
+description: >
+  Pour remporter des enchères eBay, inutile de vous connecter cinq minutes avant la fin pour surveiller ce qui se
+  passe ! Le logiciel esniper peut surveiller autant d'objets que vous le souhaitez et enchérir au bon moment.
+
+
+---
+title: F-Droid, le dépôt d'applications libres pour Android
+author: Arnaud Février
+page: 74
+description: >
+  L'intérêt majeur des ordinateurs et autres ordiphones est la possibilité d'installer des applications, des sources de
+  données ou des fichiers multimédias facilement. GOogle propose pour Android un store pour télécharger ces éléments. Le
+  contrôle appliqué sur les données du store n'est souvent pas satisfaisant : certaines applications ne peuvent être
+  considérées comme fiables et d'autres sont censurées sans décision judiciaire. C'est à l'utilisateur de décider si une
+  application est fiable. Ceci est difficile, c'est pourquoi le projet F-Droid a vu le jour pour proposer en
+  téléchargement des applications sécurisées et respectueuses de la vie privée.
+
+
+---
+title: Un Kanban libre ? Yes, Wekan !
+author: Benoît Benedetti
+page: 78
+description: >
+  Kanban est une méthode popularisée dans les années 50 par Toyota pour optimiser les tâches à réaliser dans les chaînes
+  de montage. Cette méthode s'est répandue jusque dans l'ingénierie logicielle, et plusieurs applications web on vu
+  le jour pour mettre en place votre panneau Kanban pour votre projet. La plus connue de ces applications en ligne est
+  Trello, payante et propriétaire, qui compte désormais des millions d'utilisateurs, pour des projets variés qui vont du
+  développement logiciel au planning d'un voyage, en passant par le carnet de recettes de cuisine. Dans cet article,
+  nous allons découvrir Wekan, un clone libre de Trello, que vous pourrez héberger sur votre propre serveur.
+
+
+---
+title: "Jekyll-DB : une base de données statique en HTML ?"
+author: Stéphane Mourey
+page: 82
+description: >
+  Nous avons déjà parlé de Jekyll, le générateur de sites statiques devenu très populaire, notamment du fait de son
+  intégration dans Github. Mais ce que nous n'avons pas encore dit, c'est qu'il est possible de l'utiliser
+  astucieusement comme une base de données simple avec une interface web de consultation : découvrez Jekyll-DB.
+
+
+---
+title: Crème CRM, apprenez à utiliser le plus sucré des CRM
+author: Jean-Michel Armand
+page: 91
+description: >
+  Mettre en place des échanges est au coeur des activités des personnes morales. Cela peut être des échanges
+  commerciaux, entre un client et son fournisseur ou des échanges non commerciaux comme entre une association et ses
+  donateurs. La première étape d'un échange est donc de trouver avec qui le mettre en place. Trouver son futur client ou
+  son prochain donateur. Le CRM est l'outil parfait pour faire cela.
