@@ -1,5 +1,270 @@
 [
 	{
+		"title": "Nouveau langage Perl 6 : une expressivité sans précédent",
+		"author": "Laurent Rosenfeld",
+		"page": 6,
+		"keywords": [
+			"Perl 6",
+			"Rakudo-Perl 6",
+			"Langage multiparadigme",
+			"Typage graduel",
+			"Opérateurs de listes"
+		],
+		"description": "La première version officielle de production du langage de programmation Perl 6 est sortie fin décembre 2015. Perl 6 reste dans l'esprit de Perl, et sa syntaxe présente de fortes ressemblances avec les versions antérieures de Perl, mais c'est véritablement un nouveau langage, résolument moderne et d'une puissance expressive sans précédent.",
+		"summary": "Perl 6 est un nouveau langage de programmation propre, moderne et multiparadigme : il offre des possibilités de programmation procédurale, orientée objet et fonctionnelle ; il ne vous impose aucun de ces modèles de programmation, c'est vous qui choisissez selon vos besoins spécifiques et vos préférences personnelles. Il propose aussi au choix typage statique fort ou un typage dynamique.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "H1iCrsNj"
+	},
+	{
+		"title": "Code et maintenabilité",
+		"author": "The Cheshire Cat",
+		"page": 14,
+		"keywords": [
+			"Humeur",
+			"Développeur",
+			"Maintenabilité",
+			"Equipe",
+			"Code",
+			"Bonne pratique"
+		],
+		"description": "Ecrire du code, c'est ce que nous faisons. Mais pensons-nous au futur quand nous l'écrivons ? Ne devrions-nous pas ? Qu'est ce qui fait que notre code sera ou ne sera pas maintenable et comment améliorer les choses ?",
+		"summary": "Le but du code, ce n'est pas d'être écrit, le code en lui-même n'est pas une finalité. Le code est écrit pour que le programme qui le constitue fonctionne et ce programme doit fonctionner \"longtemps\". Qu'est ce que cela sous-entend pour nous, développeurs ? C'est ce dont nous allons commencer à parler ce mois-ci.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "SklsCHiVo"
+	},
+	{
+		"title": "Peut on vraiment calculer avec un ordinateur ?",
+		"author": "Florent Langrognet",
+		"page": 16,
+		"keywords": [
+			"Calcul",
+			"Réels",
+			"Flottants",
+			"Précision",
+			"Arithmétique",
+			"Norme"
+		],
+		"description": "Alors que le recours à l'ordinateur pour calculer toujours plus vite, modéliser toujours plus finement est inscrit dans une logique de progrès, il paraît indispensable de comprendre comment sont effectués ces calculs pour garder un regard critique sur la qualité des résultats qui ne sont qu'une approximation (plus ou moins bonne) des vraies valeurs. Comment sont stockés les réels, comment sont effectués les calculs, d'où viennent les erreurs de précision, peut-on les contenir ? Vous l'apprendrez en lisant cet article et sa suite.",
+		"summary": "Dans cette première partie, nous commencerons par donner quelques exemples afin de montrer que les erreurs de calcul arrivent très vite et peuvent, dans certains cas, donner des résultats totalement faux. Nous expliquerons ensuite comment sont stockés les réels dans les ordinateurs et montrerons ainsi que ces nombres réels (les flottants) ne représentent qu'un sous-ensemble des vrais réels.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "S1-iCHoVi"
+	},
+	{
+		"title": "Expliquer un code QR",
+		"author": "Nicolas Patrois",
+		"page": 22,
+		"keywords": [
+			"Python",
+			"Code QR",
+			"Programmation orientée objet"
+		],
+		"description": "Vous en avez assez de voir des codes QR sans comprendre leur fonctionnement ? Voici comment lire leur contenu, qu'il soit entaché d'erreurs ou non et comment en créer.",
+		"summary": "Cette série de huit articles présente une étude presque complète des codes QR et pour commencer, une présentation du projet suivie d'une description du format et des premières méthodes de notre classe. Les deux articles suivants déchiffreront l'image en un tableau de bits puis en liront toutes les informations nécessaires à son décodage, c'est à dire écrire le message caché dans le magma de carrés noirs et blancs. Toutes les informations de format pourront également être affichées. Les codes QR entachés d'erreurs ou munis d'un petit dessin verront leur contenu corrigé à l'aide de codes de reed-Solomon (et un brève étude d'un corps fini ansi que son codage en Python seront nécessaires). Enfin, tout ceci nous servira pour créer un code QR fonctionnel.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "HJMo0HjEi"
+	},
+	{
+		"title": "Déchiffrer un code QR",
+		"author": "Nicolas Patrois",
+		"page": 28,
+		"keywords": [
+			"Python",
+			"Code QR",
+			"Programmation orientée objet",
+			"Algorithme",
+			"Graphe",
+			"Expression rationnelle"
+		],
+		"description": "Après les présentations de l'article précédent, on continue notre voyage en lisant l'image du code QR pour la traduire en un tableau de 0 et de 1.",
+		"summary": "Dans cet article, on transformera l'image d'un code QR sans erreur ni joli petit dessin en un tableau de bits. Pour cela, on doit déterminer la taille d'un module, la position des cibles et éventuellement l'orientation de l'image.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "By7jRSoEs"
+	},
+	{
+		"title": "Mettre en place un bureau virtuel sur son serveur dédié",
+		"author": "Bruno Dubois",
+		"page": 32,
+		"keywords": [
+			"Session HTTP",
+			"Tomcat",
+			"Stateless Web Tier",
+			"Hava/J2EE"
+		],
+		"description": "Profitez des tarifs très abordables des serveurs dédiés Linux pour installer un serveur X et un bureau complet accessibles en permanence depuis votre tablette, votre laptop, le PC d'un ami ...",
+		"summary": "De nos jours, il est de plus en plus facile de se passer d'un \"gros ordi\" chez soi. En effet, hormis quelques cas spécifiques (les jeux vidéo 3D, les applications de montage vidéo, etc.) qui nécessitent un maximum de puissance, les ordinateurs d'entrée de gamme en vente actuellement ont des spécifications techniques bien supérieures à ce dont nous avons besoin pour envoyer un email ou même faire un tableau croisé dynamique dans notre tableur favori. De plus, les nouveaux usages se sont déplacés progressivement sur le Cloud. C'est à dire que notre laptop se transforme petit à petit en un simple terminal qui permet d'accéder à nos données, et même à nos applications, qui sont, elles, sur le net. Ce qui nous amène à nous contenter d'une tablette, ou même d'un smartphone, pour gérer notre vie numérique, car un latptop aussi devient trop puissant pour notre besoin.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "SkVoRBiEo"
+	},
+	{
+		"title": "Tomcat en version \"Stateless\"",
+		"author": "Pierre-Emmanuel Gros",
+		"page": 38,
+		"keywords": [
+			"Session HTTP",
+			"Tomcat",
+			"Stateless Web Tier",
+			"Hava/J2EE"
+		],
+		"description": "Le but de cet article est de faire les modifications nécessaires afin de rendre Tomcat \"clusterisable\" en mode stateless pour des applications Java Rich Internet Application. Au menu de l'article, on ouvrira le ventre d'un serveur J2EE pour faire les modifications indispensables au processus de sauvegarde de session.",
+		"summary": "L'application phare de notre société est écrite en Java et gère un nombre important d'utilisateurs. Chaque utilisateur étant représenté par une session assez grosse, l'aventure de cet article a débuté lorsque j'ai dû reconfigurer le serveur Tomcat qui se mettait à gérer plus de 300 Mio de session. Nous aborderons donc dans cet article la programmation d'un module Tomcat permettant d'optimiser la gestion mémoire des sessions.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "rkSjABi4o"
+	},
+	{
+		"title": "Git init /etc",
+		"author": "Cyrille Colin",
+		"page": 46,
+		"keywords": [
+			"Etckeeper",
+			"Versionning",
+			"Git",
+			"Etc",
+			"Configuration",
+			"Administration système",
+			"Gitlab",
+			"Tickets"
+		],
+		"description": "Quelques fichiers de configuration ont été modifiés, quels paquets ont été installés ? Nous allons voir comment, avec l'outil etckeeper, nous pouvons obtenir les réponses à ces questions.",
+		"summary": "Conserver et consulter les modifications de configuration d'un serveur ? L'emploi des outils de gestion de version, comme git, permettent d'assister l'administrateur. Etckeeper permet lui d'adapter un système de gestion de versions à la sauvegarde d'un système de fichiers comme /etc. Couplé à un système de tickets il permet une traçabilité des actions, de visualiser les modifications apportées au système.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "BkUj0HiNo"
+	},
+	{
+		"title": "Rédiger son article avec AsciiDoc",
+		"author": "Benoit Benedetti",
+		"page": 52,
+		"keywords": [
+			"Rédaction",
+			"Asciidoctor",
+			"LibreOffice",
+			"Asciidoc"
+		],
+		"description": "Si vous rédigez des articles pour GNU/Linux Magazine Grance, vous en avez peut-être assez d'utiliser OpenOffice/LibreOffice et de passer plus de temps à vous battre avec l'éditeur pour ajouter des styles à votre article, plutôt que dans la rédaction propre de l'article. Je vous propose de découvrir un thème asciidoctor que j'ai créé et qui va vous permettre de rédiger dans votre éditeur de texte préféré votre article au format asciidoc, pour le générer au format ODT attendu par l'équipe de rédaction du magazine. Et même si vous n'avez jamais écrit d'article, peut être que cet article vous mettra le pied à l'étrier, ou plus simplement vous donnera des idées pour utiliser asciidoc pour créer votre thème personnalisé asciidoctor pour générer vos propres documents.",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "ryDs0rjNo"
+	},
+	{
+		"title": "Ecrire sont thème Asciidoctor",
+		"author": "Benoit Benedetti",
+		"page": 56,
+		"keywords": [
+			"Rédaction",
+			"Asciidoctor",
+			"GLMF",
+			"Slim",
+			"(F)ODT",
+			"Asciidoc"
+		],
+		"description": "Vous avez testé la recette précédente pour générer un article à partir d'un fichier source Asciidoctor et vous aimeriez savoir comment écrire votre propre thème Asciidoctor pour générer vos documents personnalisés.",
+		"summary": "Asciidoctor possède un framework de création de thèmes pour générer vos documents personnalisés que nous allons découvrir.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "HkuiAHiVo"
+	},
+	{
+		"title": "Il en lui manque que la parole...",
+		"author": "Tristant Colombo",
+		"page": 64,
+		"keywords": [
+			"Synthèse vocale",
+			"Espeak",
+			"SVOX Pico TTS",
+			"Google TTS",
+			"GNUSpeech",
+			"Web Speech",
+			"ResponsiveVoiceJS"
+		],
+		"description": "Nous avons tous déjà entendu cette phrase généralement prononcée par une personne âgée en flattant un chient : \"il ne lui manque que la parole !\". Mais c'est un chien... déjà que son maître parle, on ne va pas en plus devoir entendre l'animal ! Et un ordinateur, ça peut parler ?",
+		"summary": "Les solutions de synthèse vocale sont nombreuses sur le marché, qu'il s'agisse de solutions open source ou proprétaires. Pour pouvoir effectuer un choix il faut les tester ! C'est ce qui est fait dans cet article avec le test de six outils qui pourront être utilisés simplement dans vos programmes.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "BkYj0rs4i"
+	},
+	{
+		"title": "Le graal à portée de main : écrire un interpreteur",
+		"author": "Guillaume Saupin",
+		"page": 72,
+		"keywords": [
+			"C++",
+			"Lisp",
+			"LLVM",
+			"Compilation",
+			"Parseur",
+			"Langage"
+		],
+		"description": "Dans le précédent article, notre héros, le Lisp, a fait l'objet d'un rappel de ses innombrables qualités. Inspirés par ce modèle, nous avons présentés rapideent le caractère modulaire que nous souhaitions donner à notre langage, puis décrit la structure de données contenant le code parsé, et enfin écrit un parseur récursif descendant. Tout ça n'est pas très utile. nous allons remédier à ça en ajoutant un interpréteur à notre langage;",
+		"summary": "Dans ce second article, nous allons donner vie à notre langage en lui offrant un interpréteur et un premier ensemble de fonctions arithmétiques tout en revenant en détail sur la gestion de nos modules.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "rJ9s0SiVs"
+	},
+	{
+		"title": "Android Context : quel context utiliser dans votre application Android ?",
+		"author": "Ramel Adjibi",
+		"page": 78,
+		"keywords": [
+			"Android",
+			"Java",
+			"Android Studio",
+			"Context",
+			"Activity",
+			"View"
+		],
+		"description": "Lors du développement d'une application mobile Android, on est souvent confronté au choix du Context afin d'initialiser tel ou tel composant ; cela peut être une vue, un adapter etc. Il existe plusieurs Context mis à notre disposition par le framework Android ; essayons de voir ensemble quel Context utiliser suivant la situation dans laquelle on pourrait se retrouver :-)",
+		"summary": "Optimiser son code pour éviter au maximum les fuites de mémoire est l'un des objectifs d'un bon développeur. Pour ce faire, plusieurs points sont à prendre en compte, comme le choix du Context à utiliser dans une situation donnée. Nous verrons ensemble dans la suite de l'article quels sont les Context mis à notre disposition et comment s'en servir à bon escient.\n",
+		"date": "2016-05-01T00:00:00.000Z",
+		"displayed_date": "Mai 2016",
+		"number": 193,
+		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/937-gnulinux-magazine-193.html",
+		"type": "glmf",
+		"id": "BksjRBsVi"
+	},
+	{
 		"title": "Le langage Perl 6, poursuite du tour d'horizon",
 		"author": "Laurent Rosenfeld",
 		"page": 6,
@@ -18,7 +283,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "B19CwLlj"
+		"id": "rknj0BjNj"
 	},
 	{
 		"title": "PostgreSQL 9.5 : Les nouvelles fonctionnalités SQL",
@@ -38,7 +303,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "Bkx5RvLgi"
+		"id": "SyTsAHj4s"
 	},
 	{
 		"title": "Je suis pas analyste !",
@@ -57,7 +322,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "r1-9ADUgi"
+		"id": "HJCjCHjEs"
 	},
 	{
 		"title": "Peut-on vraiment calculer avec un ordinateur : les opérations",
@@ -78,7 +343,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "Hyz5CD8xi"
+		"id": "BJJeoAro4s"
 	},
 	{
 		"title": "Décoder un code QR",
@@ -97,7 +362,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "ry7cAvLlj"
+		"id": "BklloCBsNs"
 	},
 	{
 		"title": "Chiffrer une partition avec LVM et LUKS",
@@ -116,7 +381,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "BkE5RP8xs"
+		"id": "r1WxjCHoVi"
 	},
 	{
 		"title": "Gestion de paquets sûre et flexible avec GNU Guix",
@@ -135,7 +400,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "BkB9AwUej"
+		"id": "HyfejAHjEi"
 	},
 	{
 		"title": "Déconnexion PDO : du comptage de références en PHP",
@@ -154,7 +419,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "BJIq0DLgi"
+		"id": "SkXlsRro4s"
 	},
 	{
 		"title": "Programmer avec GTK+",
@@ -175,7 +440,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "rkw9AP8ls"
+		"id": "BJ4ljRBjVi"
 	},
 	{
 		"title": "Un vrai language",
@@ -196,7 +461,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "rJu5Av8gi"
+		"id": "HJSxoRroVj"
 	},
 	{
 		"title": "(Re)découvrons jQuery",
@@ -217,7 +482,7 @@
 		"number": 194,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "glmf",
-		"id": "ByF5RDLgj"
+		"id": "HJ8xjABiVo"
 	},
 	{
 		"title": "PostgreSQL 9.5 : Encore des nouveautés",
@@ -237,7 +502,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "HkqcAwIgo"
+		"id": "rJwxo0rjNi"
 	},
 	{
 		"title": "Les réseaux Asociaux",
@@ -256,7 +521,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "HkiqRDIgi"
+		"id": "HJdgjRSoEo"
 	},
 	{
 		"title": "Expliquer un corps fini",
@@ -275,7 +540,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "S1hqCP8lo"
+		"id": "ryFeo0BiVi"
 	},
 	{
 		"title": "Bienvenue dans le monde des descripteurs de fichiers",
@@ -295,7 +560,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "r1650vIxi"
+		"id": "ByqesCSjVi"
 	},
 	{
 		"title": "Configurer à chaud votre serveur OpenLDAP",
@@ -314,7 +579,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "B1R5RvUeo"
+		"id": "SkiejASjVi"
 	},
 	{
 		"title": "Démystification de l'attaque par buffer overflow",
@@ -338,7 +603,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "Sykg9CP8xo"
+		"id": "HJ3xsABoVo"
 	},
 	{
 		"title": "Filtrez vos courriels avec python",
@@ -357,7 +622,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "BkgxqCPUgo"
+		"id": "rkagoCSiEo"
 	},
 	{
 		"title": "Apprenez à tenir vos promesses avec javascript",
@@ -378,7 +643,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "SyWg5CDIli"
+		"id": "HJCxs0SsVi"
 	},
 	{
 		"title": "Déstructurez vos documents: conversion latex vers libreoffice",
@@ -399,7 +664,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "HJGgcAD8eo"
+		"id": "rJkWiAHoVo"
 	},
 	{
 		"title": "Python : un environnement vraiment isolé avec GNU Guix",
@@ -419,7 +684,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "ryml5CP8xi"
+		"id": "BJgbs0BoVs"
 	},
 	{
 		"title": "Réalisation d'un automatisme d'objets connectés sans cloud ni smartphone",
@@ -441,7 +706,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "rk4l9AwUxs"
+		"id": "BJZWsAHj4s"
 	},
 	{
 		"title": "Vision assistée par ordinateur via OpenCV",
@@ -461,7 +726,7 @@
 		"number": 195,
 		"url": "https://boutique.ed-diamond.com/gnulinux-magazine/1059-gnulinux-magazine-195.html",
 		"type": "glmf",
-		"id": "HJSlq0DIgs"
+		"id": "rkMWsABsEi"
 	},
 	{
 		"title": "Intégration de modélisation 3D dans une photo et caméra mapping avec Blender et BLAM",
@@ -473,7 +738,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "By8lqADUes"
+		"id": "rkQWoASsNs"
 	},
 	{
 		"title": "Réparez les objets du quotidien avec la 3D",
@@ -485,7 +750,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "BkDl50w8ei"
+		"id": "HJVbiRSiNi"
 	},
 	{
 		"title": "Réaliser ses gravures laser à l'aide d'Inkscape",
@@ -497,7 +762,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "S1Ol5CvLeo"
+		"id": "H1rZsRBi4j"
 	},
 	{
 		"title": "Monitoring réseau simple et rapide avec LibreNMS",
@@ -509,7 +774,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "SJYxq0w8xs"
+		"id": "SJU-j0SjVs"
 	},
 	{
 		"title": "La vie privée en Europe : des législations nationales à une question globale",
@@ -521,7 +786,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "By5gq0vLeo"
+		"id": "BkP-jRSsEj"
 	},
 	{
 		"title": "Clipperz : l'open source comme modèle de sécurité ?",
@@ -533,7 +798,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "H1je5Cv8ei"
+		"id": "ryd-j0Ss4o"
 	},
 	{
 		"title": "Chiffrez vos serveurs web",
@@ -545,7 +810,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "rk3x90wIgj"
+		"id": "rytZiRroEi"
 	},
 	{
 		"title": "Colorisez vos textes avec la commande HL",
@@ -557,7 +822,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "S1TxcCDIxj"
+		"id": "HyqWoRBj4i"
 	},
 	{
 		"title": "Enchérissez automatiquement avec eSniper",
@@ -569,7 +834,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "r1AxcRDUlo"
+		"id": "r1oWsRBjNi"
 	},
 	{
 		"title": "F-Droid, le dépôt d'applications libres pour Android",
@@ -581,7 +846,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "SJ1W9Cv8xi"
+		"id": "Synbs0BsEo"
 	},
 	{
 		"title": "Un Kanban libre ? Yes, Wekan !",
@@ -593,7 +858,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "BJg-9AP8go"
+		"id": "BJ6-s0ro4j"
 	},
 	{
 		"title": "Jekyll-DB : une base de données statique en HTML ?",
@@ -605,7 +870,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "Hy-Z5RPLei"
+		"id": "HkCWoCHsNj"
 	},
 	{
 		"title": "Crème CRM, apprenez à utiliser le plus sucré des CRM",
@@ -617,7 +882,7 @@
 		"number": 93,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/920-linux-pratique-93.html",
 		"type": "lp",
-		"id": "rkzbcAwUgj"
+		"id": "ryJfjCSiEs"
 	},
 	{
 		"title": "Conception 3D d'une clé USB avec FreeCAD",
@@ -634,7 +899,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "S17-9ADLlo"
+		"id": "SJxGoCSjVi"
 	},
 	{
 		"title": "Monter son serveur de mails : Partie 1",
@@ -650,7 +915,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "B1E-5AD8ej"
+		"id": "BkZGiRSiNo"
 	},
 	{
 		"title": "Les paradis numériques existent-ils ?",
@@ -662,7 +927,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "HJr-qCPLes"
+		"id": "HyzGiAHsVs"
 	},
 	{
 		"title": "Let's Encrypt : le chiffrement gratuit, ouvert et automatisé sur internet",
@@ -674,7 +939,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "SJI-5RPLgj"
+		"id": "BkmzsRSo4o"
 	},
 	{
 		"title": "Ne vous faitesz plus pister sur le web avec Privoxy !",
@@ -686,7 +951,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "H1vbcRv8lj"
+		"id": "H1EGjCBiVi"
 	},
 	{
 		"title": "Apprendre à manipuler le PDF en 10 cas pratiques",
@@ -698,7 +963,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "S1d-qRvLxj"
+		"id": "rkHGsABiNj"
 	},
 	{
 		"title": "Nettoyage des vieux noyaux GNU/Linux obsolètes",
@@ -710,7 +975,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "BJtWc0DIls"
+		"id": "rJLfo0BiVs"
 	},
 	{
 		"title": "Gérez votre site Wordpress où que vous soyez",
@@ -721,7 +986,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "HJ9b9Av8lj"
+		"id": "SywzsASiEs"
 	},
 	{
 		"title": "Piwigo : votre galerie photo personnelle en ligne",
@@ -733,7 +998,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "B1s-q0PLgo"
+		"id": "H1OGjCSoEo"
 	},
 	{
 		"title": "Dopez vos CSS avec SASS",
@@ -745,7 +1010,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "B13WcAw8xo"
+		"id": "H1YfoCHsVs"
 	},
 	{
 		"title": "Un CRM, mais en fait, à quoi ça sert ?",
@@ -757,7 +1022,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "Sy6WcAvIlo"
+		"id": "S1qGo0BsNo"
 	},
 	{
 		"title": "Communiquz librement avec Mattermost",
@@ -769,7 +1034,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "Bk0Z5RvLlo"
+		"id": "HJofjCBj4s"
 	},
 	{
 		"title": "Tout ce qu'il faut savoir sur le protocole LDAP Partie II : La pratique",
@@ -781,7 +1046,7 @@
 		"number": 94,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/928-linux-pratique-94.html",
 		"type": "lp",
-		"id": "HJkGq0vIgi"
+		"id": "rkhziRrjVo"
 	},
 	{
 		"title": "Jouez à l'architecte avec Sweet Home 3D",
@@ -793,7 +1058,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "rkeMqADLei"
+		"id": "H1Tzs0HjVi"
 	},
 	{
 		"title": "Montez son serveur de mails : Partie 2",
@@ -805,7 +1070,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "Sk-M5RDLes"
+		"id": "HJAfjRBsVi"
 	},
 	{
 		"title": "La meilleure distribution universelle n'existe pas",
@@ -817,7 +1082,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "HkfGqRvLeo"
+		"id": "HkymsAHjEo"
 	},
 	{
 		"title": "DuckDuckGo, le moteur qui ne vous profile pas",
@@ -829,7 +1094,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "HJXM9RPIei"
+		"id": "Syemi0BiEi"
 	},
 	{
 		"title": "Mise en place d'une solution de rediffusion de la TNT à la maison",
@@ -841,7 +1106,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "B1EGqRP8eo"
+		"id": "S1bQjRBiEi"
 	},
 	{
 		"title": "Encodez vos vidéos en H.265/HEVC",
@@ -853,7 +1118,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "BJSfcAvLei"
+		"id": "r1fXjArjNs"
 	},
 	{
 		"title": "Utilisez des claviers alternatifs plus judicieux sous Android",
@@ -865,7 +1130,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "HJ8G5AwIgi"
+		"id": "Sy7msASi4o"
 	},
 	{
 		"title": "Comprenez vos visiteurs avec Piwik",
@@ -877,7 +1142,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "HkPzqAwUeo"
+		"id": "ByNQi0riNs"
 	},
 	{
 		"title": "LESS: Optimisez votre travail sur les CSS",
@@ -889,7 +1154,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "BkOzq0wIxj"
+		"id": "HJB7iRrsVi"
 	},
 	{
 		"title": "Qu'est-ce que l'open data : introduction & mise en pratique",
@@ -901,7 +1166,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "ryFz9AwLlj"
+		"id": "HyImiAHoVo"
 	},
 	{
 		"title": "MicroAlg, un langage pour grands débutants",
@@ -913,7 +1178,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "BJ5f5CwUlj"
+		"id": "S1D7oAHoNj"
 	},
 	{
 		"title": "La sauvegarde dee vos équipements réseau avec RANCID",
@@ -925,7 +1190,7 @@
 		"number": 95,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/938-linux-pratique-95.html",
 		"type": "lp",
-		"id": "HkiG90vUgi"
+		"id": "BydQjCSs4i"
 	},
 	{
 		"title": "Réaliser son dossier de permis de construire avec Blender et LibreCAD",
@@ -937,7 +1202,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "By2z9CDIej"
+		"id": "rJFXsRHjEo"
 	},
 	{
 		"title": "Enrichier sa diffusion de contenus multimédias avec OBS",
@@ -949,7 +1214,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "rJTzcCDLgj"
+		"id": "BJ9XsArjVs"
 	},
 	{
 		"title": "Etalonner son écran avec des outils libres",
@@ -961,7 +1226,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "H1AG9CvUeo"
+		"id": "B1o7iCSoVo"
 	},
 	{
 		"title": "Protégez votre vue et votre sommeil avec Redshift",
@@ -973,7 +1238,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "Syk7qCP8eo"
+		"id": "BJn7iRHoEi"
 	},
 	{
 		"title": "Protégez vos données : utilisez des supports chiffrés",
@@ -985,7 +1250,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "ryxQ5AP8gj"
+		"id": "SJTQjArsNs"
 	},
 	{
 		"title": "YunoHost, l'auto-hébergemenbt à portée de main",
@@ -997,7 +1262,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "H1bQ5CwLej"
+		"id": "HJCQo0ro4j"
 	},
 	{
 		"title": "Test de la tablette Aquaris M10 Ubuntu Edition",
@@ -1009,7 +1274,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "HkMmcAPIgo"
+		"id": "SkyEsASsEs"
 	},
 	{
 		"title": "HashOver : autorisez les commentaires sur vos sites statiques",
@@ -1021,7 +1286,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "ByQQcRv8li"
+		"id": "HJl4oArsNi"
 	},
 	{
 		"title": "Friendica : un réseau pour les gouverner tous ?",
@@ -1033,7 +1298,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "HkEQ5RDIej"
+		"id": "SkbNoABoEj"
 	},
 	{
 		"title": "Manipuler des données avec Drupal",
@@ -1045,7 +1310,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "SJrX5Rv8ls"
+		"id": "r1zNi0Bo4j"
 	},
 	{
 		"title": "Surveillez automatiquement le programme de la TNT avec Python",
@@ -1057,7 +1322,7 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "SkLm90wLes"
+		"id": "HJ74sASsVi"
 	},
 	{
 		"title": "gérez vos projets agiles avec Taïga",
@@ -1069,6 +1334,6 @@
 		"number": 96,
 		"url": "https://boutique.ed-diamond.com/linux-pratique/1061-linux-pratique-96.html",
 		"type": "lp",
-		"id": "SyvQq0wIxi"
+		"id": "HkV4sCSiNs"
 	}
 ]
