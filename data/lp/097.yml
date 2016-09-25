@@ -1,0 +1,140 @@
+---
+date: 2016-09-01
+displayed_date: Septembre/Octobre 2016
+shop: https://boutique.ed-diamond.com/linux-pratique/1073-linux-pratique-97.html
+
+
+---
+title: Initiation aux calculs numériques avec Scilab
+author: Laurent Delmas
+page: 8
+description: >
+  Quel que soit le domaine, médical, aéronautique, automobile, chimique, biologique, l'ingénieur comme le chercheur
+  utilise le calcul numérique pour modéliser, simuler ou optimiser les systèmes qu'il étudie. En mars dernier décollait
+  de Baonour la fusée russe Proton transportant à son bord une sonde et un robot en direction de la planète Mars. Avant
+  de parvenir à un tel succès, les ingénieurs ont réalisé de nombreux calculs et simulations. Par exemple, le CNES a
+  développé un module nommé Clestlab permettant de réaliser le calcul de trajectoires et d'orbites pour diverses
+  missions spatiales.
+
+
+---
+title: 5 extensions pour un Blender plus efficace et plus simple
+author: Anthony Carré
+page: 18
+description: >
+  Vous pouvez utiliser Blender pour de l'animation en image de synthèse, des effets spéciaux, créer un jeu vidéo, de la
+  modélisation pour de l'impression 3D, du montage vidéo, pour de la visualisation scientifique... Quel que soit votre
+  usage, il est clair que Blender est un logiciel particulièrement complet clé en main. Mais comme si cela n'était pas
+  suffisant, il est de plus extensible. Certains modules ajoutent des fonctionnalités, d'autres simplifient des tâches
+  rébarbatives, certains sont tellement pratiques qu'ils semblent indispensables. Nous vous présenterons ici une
+  sélection d'extensions qui nous semblent intéressantes.
+
+
+---
+title: Tapeutape pour animer vos événements à l'aide de jingles sonores
+author: Yann Morère
+page: 25
+description: >
+  Le but de cet article est de présenter la mise en oeuvre complète d'un système de lecture d'échantillons sonores
+  (musique ou vois) pour animer et ponctuer un événmeent : soirée, compétition sportive, etc. Afin d'être le plus
+  réactif possible et en phase avec le déroulement de votre fête, on utilisera un clavier Midi en USB pour jouer les
+  sons à l'aide d'une simple touche du piano. Mais avant cela, il s'agira de préparer les échantillons...
+
+
+---
+title: Orchestrez facilement Docker avec Rancher
+author: Stéphane Beuret
+page: 36
+description: >
+  Trois ans déjà qu'on a découvert avec enchantement Docker, et avec lui le plaisir de mettre facilement en oeuvre des
+  micro-services. On a essayé un premier busybox, puis très vite un Nginx, puis un WordPress, et puis d'autres et encore
+  d'autres... C'est si merveilleusement simple. Mais vite un problème s'est posé : étendre ses conteneurs au-delà d'une
+  seule machine... Pour répondre à cette problématique, Docker est venu avec Swarm, son orchestrateur, Google avec
+  Kubernetes (K8s pour les intimes) et Apache avec Mesos. Alors une grappe Docker, oui, mais quid de sa laborieuse mise
+  en oeuvre ? J'ai la solution !
+
+
+---
+title: Verrouillez votre écran automatiquement quand vous vous éloignez avec votre smartphone
+author: Arnaud Février
+page: 42
+description: >
+  Verrouillez sa station de travail lorsqu'on s'éloigne de celle-ci est l'unde des règles à mettre en place en matière
+  de sécurité. Quand on prévoit de s'éloigner seulement pour quelques secondes, la contrainte est dure à respecter. De
+  plus, l'obligation de saisir le mot de passe au retour est un frein important. Je propose donc de verrouiller et
+  déverrouiller la station en fonction de la proximité de l'utilisateur et plus exactement de son téléphone.
+
+
+---
+title: Ordinateurs, smartphones & tablettes Android... Un VPN pour les protéger tous !
+author: Arnaud Février
+page: 48
+description: >
+  La mise en place d'un réseau VPN permet d'augmenter la sécurité des serveurs intranet. Les utilisateurs nomades
+  peuvent accéder à leurs données depuis l'extérieur. La configuration d'un client sur Android est différente de celle
+  d'une station GNU/Linux, mais ne présente pas de difficulté majeure.
+
+
+---
+title: Utilisation de FFmpeg pour la conversion multimédia
+author: Laurent Delmas
+page: 56
+description: >
+  Qui, à son retour de vacances, n'a jamais été confronté à ne pouvoir lire ses vidéos souvenirs sur sa télévision du
+  salon ? Ou alors l'impossibilité de revoir l'épisode de sa série préférée, enregistrée la veille afin de pouvoir le
+  voir en différé. Cet article est pour vous, il présente différents cas d'utilisation de FFmpeg, logiciel de conversion
+  multimédia libre et disponible pour tout système d'exploitation.
+
+
+---
+title: "Référencement naturel : comment démarrer sur de bonnes bases ?"
+author: Tris Acatrinei
+page: 65
+description: >
+  L'une des problématiques des acteurs du logiciel libre est souvent de faire connaître leurs derniers projets et pour
+  se faire connaître, il n'y a pas de secrets ni de formules magiques : il faut travailler sur le SEO ou Search Engine
+  Optimization. Cet article va vous expliquer comment démarrer sur de bonnes bases sans trop vous fatiguer.
+
+
+---
+title: "AppCache : rendez votre application en ligne disponible hors ligne"
+author: Stéphane Mourey
+page: 72
+description: >
+  Vous venez de développer une belle application en ligne. Il se trouve que les fonctionnalités qu'elle propose à
+  l'utilisateur nécessitent peu de communication réseaux et q'il devient intéressant pour vous de les proposer, y
+  compris lorsque le Web, et donc votre site, est inaccessible. Vous pourriez reprendre votre développement pour
+  proposer une application pour mobile ou desktop. Le temps vous manque ? Commencez par rendre votre site disponible
+  hors ligne, conservé bien au chaud dans le cache du navigateur grâce à l'AppCache.
+
+
+---
+title: Grav, dissection approfondie d’un CMS flat-file particulièrement attrayant
+author: Anthony Carré
+page: 76
+description: >
+  Moderne, rapide, simple à installer et à utiliser, avec une telle description, le système de gestion de contenu Grav
+  semble être un projet alléchant. Si nous ajoutons : langage Markdown, flat-file, nominé "Best Free CMS 2015" sur CMS
+  Critic, open source (license MIT), plugins et thèmes, mises à jour par gestionnaire de paquets... La curiosité est à
+  vif, prenons le temps de regarder en détail si Grav tient ses promesses.
+
+
+---
+title: Introduction au Web sémantique avec la syntaxe ARIA
+author: Sébastien Chazallet
+page: 86
+description: >
+  Le Web sémantique a prouvé son utilité et s'impose peu à peu. Une des conséquences est l'adoption de la syntaxe ARIA
+  par les principaux frameworks CSS. Le nom ARIA n'est en aucun cas relié aux époux Weyland, mais signifie Accessible
+  Rich Internet Application. Nous vous proposons d'en faire la connaissance.
+
+
+---
+title: Inventoriez votre réseau avec NetBox
+author: Benoit Benedetti
+page: 94
+description: >
+  Si vous êtes amené à gérer et travailler avec un parc conséquent de machines, la taille de votre réseau sera
+  proportionnelle : nombreux équipements, baies, adressage IP dense... Cela fait beaucoup de choses à inventorier, ce
+  qui devient vite ingérable avec un tableur. Nous allons voir comment mettre en place un système d'inventaire réseau
+  avec NetBox.
